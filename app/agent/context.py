@@ -1,0 +1,17 @@
+# app/agent/context.py
+from typing import TypedDict
+from langchain_huggingface import HuggingFaceEndpointEmbeddings
+from app.repositories.es.value_es_repository import ValueEsRepository  # 修正：ES → Es
+from app.repositories.mysql.dw.dw_mysql_repository import DWMYSQLRepository
+from app.repositories.mysql.meta.meta_mysql_repository import MetaMysqlRepository
+from app.repositories.qdrant.column_qdrant_repository import ColumnQdrantRepository
+from app.repositories.qdrant.metric_qdrant_repository import MetricQdrantRepository
+
+
+class DataAgentContext(TypedDict):
+    embedding_client: HuggingFaceEndpointEmbeddings
+    column_qdrant_repository: ColumnQdrantRepository
+    value_es_repository: ValueEsRepository  # 修正：ES → Es
+    metric_qdrant_repository: MetricQdrantRepository
+    meta_mysql_repository: MetaMysqlRepository
+    dw_mysql_repository: DWMYSQLRepository

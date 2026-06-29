@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>问数智能体 - 数据查询助手</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { text-align: center; color: white; margin-bottom: 30px; }
+        .header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .main-card { background: white; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); overflow: hidden; }
+        .input-area { padding: 30px; background: #f8f9fa; border-bottom: 1px solid #e9ecef; }
+        .query-input { width: 100%; padding: 15px 20px; font-size: 1rem; border: 2px solid #e9ecef; border-radius: 12px; resize: vertical; }
+        .query-input:focus { outline: none; border-color: #667eea; }
+        .button-group { display: flex; gap: 15px; margin-top: 20px; }
+        .btn { padding: 12px 24px; font-size: 1rem; border: none; border-radius: 10px; cursor: pointer; font-weight: 500; }
+        .btn-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .btn-secondary { background: #6c757d; color: white; }
+        .examples { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 10px; }
+        .example-tag { background: #e9ecef; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; cursor: pointer; }
+        .example-tag:hover { background: #667eea; color: white; }
+        .progress-area { padding: 20px 30px; background: #f8f9fa; border-bottom: 1px solid #e9ecef; max-height: 200px; overflow-y: auto; display: none; }
+        .progress-steps { display: flex; flex-wrap: wrap; gap: 10px; }
+        .step { padding: 5px 12px; border-radius: 20px; font-size: 0.8rem; background: #e9ecef; color: #6c757d; }
+        .step.running { background: #667eea; color: white; animation: pulse 1.5s infinite; }
+        .step.success { background: #28a745; color: white; }
+        .step.error { background: #dc3545; color: white; }
+        @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.6; } }
+        .result-area { padding: 30px; }
+        .result-tabs { display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 1px solid #e9ecef; }
+        .tab { padding: 10px 20px; cursor: pointer; border: none; background: none; font-size: 1rem; color: #6c757d; }
+        .tab.active { color: #667eea; border-bottom: 2px solid #667eea; }
+        .result-content { background: #f8f9fa; border-radius: 12px; padding: 20px; min-height: 200px; max-height: 400px; overflow-y: auto; white-space: pre-wrap; word-break: break-word; }
+        .data-table { width: 100%; border-collapse: collapse; }
+        .data-table th { background: #f8f9fa; padding: 12px; text-align: left; border-bottom: 2px solid #dee2e6; }
+        .data-table td { padding: 10px 12px; border-bottom: 1px solid #e9ecef; }
+        .loading-spinner { display: inline-block; width: 20px; height: 20px; border: 2px solid #f3f3f3; border-top: 2px solid #667eea; border-radius: 50%; animation: spin 1s linear infinite; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 问数智能体</h1>
+            <p>用自然语言查询数据，智能生成 SQL 并返回结果</p>
+        </div>
+        <div class="main-card">
+            <div class="input-area">
+                <textarea id="queryInput" class="query-input" rows="3" placeholder="例如：统计华北地区2025年1月的销售总额"></textarea>
+                <div class="button-group">
+                    <button id="submitBtn" class="btn btn-primary">🔍 查询</button>
+                    <button id="clearBtn" class="btn btn-secondary">🗑️ 清空</button>
+                </div>
+                <div class="examples">
+                    <span class="example-tag" data-query="统计华北地区2025年1月的销售总额">📊 华北地区销售总额</span>
+                    <span class="example-tag" data-query="统计各地区销量前三的商品">🏆 各地区销量前三</span>
+                    <span class="example-tag" data-query="找出消费总金额最高的前5名客户">👥 消费TOP5客户</span>
+                </div>
+            </div>
+            <div class="progress-area" id="progressArea"><div class="progress-steps" id="progressSteps"></div></div>
+            <div class="result-area">
+                <div class="result-tabs">
+                    <button class="tab active" data-tab="explanation">📝 自然语言回答</button>
+                    <button class="tab" data-tab="data">📊 原始数据</button>
+                    <button class="tab" data-tab="sql">💻 生成的 SQL</button>
+                </div>
+                <div id="explanationContent" class="result-content">等待查询...</div>
+                <div id="dataContent" class="result-content" style="display:none;">等待查询...</div>
+                <div id="sqlContent" class="result-content" style="display:none;">等待查询...</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const API_URL = '/api/query';
+        let currentSteps = new Map();
+        const queryInput = document.getElementById('queryInput');
+        const submitBtn = document.getElementById('submitBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const progressArea = document.getElementById('progressArea');
+        const progressSteps = document.getElementById('progressSteps');
+        const explanationContent = document.getElementById('explanationContent');
+        const dataContent = document.getElementById('dataContent');
+        const sqlContent = document.getElementById('sqlContent');
+        
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                const target = tab.dataset.tab;
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                explanationContent.style.display = target === 'explanation' ? 'block' : 'none';
+                dataContent.style.display = target === 'data' ? 'block' : 'none';
+                sqlContent.style.display = target === 'sql' ? 'block' : 'none';
+            });
+        });
+        
+        document.querySelectorAll('.example-tag').forEach(tag => {
+            tag.addEventListener('click', () => { queryInput.value = tag.dataset.query; });
+        });
+        
+        clearBtn.addEventListener('click', () => {
+            queryInput.value = '';
+            explanationContent.innerHTML = '等待查询...';
+            dataContent.innerHTML = '等待查询...';
+            sqlContent.innerHTML = '等待查询...';
+            progressSteps.innerHTML = '';
+            progressArea.style.display = 'none';
+            currentSteps.clear();
+        });
+        
+        function updateProgress(step, status) {
+            if (!currentSteps.has(step)) {
+                const el = document.createElement('div');
+                el.className = 'step';
+                el.textContent = step;
+                progressSteps.appendChild(el);
+                currentSteps.set(step, el);
+            }
+            const el = currentSteps.get(step);
+            el.className = `step ${status}`;
+            el.textContent = status === 'running' ? `⏳ ${step}` : status === 'success' ? `✅ ${step}` : `❌ ${step}`;
+        }
+        
+        function formatData(data) {
+            if (!data || data.length === 0) return '暂无数据';
+            const headers = Object.keys(data[0]);
+            let html = '<table class="data-table"><thead><tr>';
+            headers.forEach(h => html += `<th>${h}</th>`);
+            html += '</tr></thead><tbody>';
+            data.forEach(row => {
+                html += '<tr>';
+                headers.forEach(h => html += `<td>${row[h] ?? '-'}</td>`);
+                html += '</tr>';
+            });
+            html += '</tbody></table>';
+            return html;
+        }
+        
+        async function executeQuery() {
+            const query = queryInput.value.trim();
+            if (!query) { alert('请输入查询问题'); return; }
+            clearResults();
+            progressArea.style.display = 'block';
+            submitBtn.disabled = true;
+            explanationContent.innerHTML = '<span class="loading-spinner"></span> 正在查询中...';
+            dataContent.innerHTML = '<span class="loading-spinner"></span> 正在查询中...';
+            sqlContent.innerHTML = '<span class="loading-spinner"></span> 正在查询中...';
+            
+            try {
+                const response = await fetch(API_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query: query })
+                });
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let buffer = '';
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+                    buffer += decoder.decode(value, { stream: true });
+                    const lines = buffer.split('\n\n');
+                    buffer = lines.pop();
+                    for (const line of lines) {
+                        if (line.startsWith('data: ')) {
+                            try {
+                                const data = JSON.parse(line.slice(6));
+                                if (data.type === 'progress') updateProgress(data.step, data.status);
+                                if (data.type === 'sql') sqlContent.innerHTML = `<pre style="background:#1e1e1e;color:#d4d4d4;padding:15px;border-radius:8px;overflow:auto;">${escapeHtml(data.data)}</pre>`;
+                                if (data.type === 'result') dataContent.innerHTML = formatData(data.data);
+                                if (data.type === 'explanation') explanationContent.innerHTML = data.data;
+                            } catch(e) {}
+                        }
+                    }
+                }
+            } catch (error) {
+                explanationContent.innerHTML = `❌ 查询失败: ${error.message}`;
+                dataContent.innerHTML = `❌ 查询失败: ${error.message}`;
+                sqlContent.innerHTML = `❌ 查询失败: ${error.message}`;
+            } finally {
+                submitBtn.disabled = false;
+            }
+        }
+        
+        function clearResults() {
+            progressSteps.innerHTML = '';
+            progressArea.style.display = 'none';
+            currentSteps.clear();
+        }
+        
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        submitBtn.addEventListener('click', executeQuery);
+        queryInput.addEventListener('keydown', (e) => { if (e.ctrlKey && e.key === 'Enter') executeQuery(); });
+    </script>
+</body>
+</html>

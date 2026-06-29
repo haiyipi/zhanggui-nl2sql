@@ -1,0 +1,2288 @@
+2026-05-19 22:54:14.224 | INFO     | __main__:build:4 - building...
+2026-05-19 23:01:15.867 | INFO     | __main__:build:4 - building...
+2026-05-19 23:18:58.180 | INFO     | __main__:build:8 - building...
+2026-05-19 23:23:03.607 | INFO     | __main__:build:8 - building...
+2026-05-19 23:27:34.418 | INFO     | __main__:build:11 - building...
+2026-05-21 19:51:23.382 | INFO     | __main__:<module>:38 - 使用配置文件: path/to/meta_config.yaml
+2026-05-21 19:54:10.343 | INFO     | __main__:<module>:38 - 使用配置文件: conf/meta_config.yaml
+2026-05-21 19:55:39.099 | INFO     | __main__:<module>:38 - 使用配置文件: conf/meta_config.yaml
+2026-05-21 19:57:01.105 | INFO     | __main__:<module>:38 - 使用配置文件: conf/meta_config.yaml
+2026-05-21 19:58:17.419 | INFO     | __main__:<module>:38 - 使用配置文件: conf/meta_config.yaml
+2026-05-21 19:58:17.689 | INFO     | __main__:<module>:53 - 使用配置文件: conf/meta_config.yaml
+2026-05-21 22:24:17.469 | INFO     | __main__:<module>:45 - 使用配置文件: conf/meta_config.yaml
+2026-05-21 22:25:11.036 | INFO     | __main__:<module>:33 - 使用配置文件: conf/meta_config.yaml
+2026-05-21 23:39:49.771 | INFO     | __main__:<module>:33 - 使用配置文件: conf/meta_config.yaml
+2026-05-21 23:40:27.677 | INFO     | __main__:<module>:33 - 使用配置文件: conf/meta_config.yaml
+2026-05-21 23:44:36.303 | INFO     | __main__:<module>:33 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 11:33:20.888 | INFO     | __main__:<module>:54 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 11:35:15.139 | INFO     | __main__:<module>:52 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 11:38:14.392 | INFO     | __main__:<module>:52 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 11:39:23.524 | INFO     | __main__:<module>:52 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 11:40:49.669 | INFO     | __main__:<module>:52 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 11:40:50.248 | INFO     | app.repositories.qdrant.column_qdrant_repository:ensure_collection:24 - 创建集合: column_info_collection
+2026-05-23 11:49:14.036 | INFO     | __main__:<module>:52 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 12:02:05.549 | INFO     | __main__:<module>:52 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 12:02:41.549 | INFO     | __main__:<module>:52 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 12:10:32.506 | INFO     | __main__:<module>:52 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 12:12:58.718 | INFO     | __main__:<module>:52 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 12:12:59.087 | INFO     | app.services.meta_knowledge_service:build:42 - 加载配置文件完成
+2026-05-23 12:14:01.057 | INFO     | __main__:<module>:52 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 12:14:01.442 | INFO     | app.services.meta_knowledge_service:build:42 - 加载配置文件完成
+2026-05-23 12:14:01.500 | INFO     | app.services.meta_knowledge_service:build:82 - 保存 5 个表和 24 个字段到 meta 数据库
+2026-05-23 12:16:16.236 | INFO     | __main__:<module>:52 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 12:16:16.624 | INFO     | app.services.meta_knowledge_service:build:42 - 加载配置文件完成
+2026-05-23 12:16:16.681 | INFO     | app.services.meta_knowledge_service:build:82 - 保存 5 个表和 24 个字段到 meta 数据库
+2026-05-23 12:17:19.968 | INFO     | __main__:<module>:52 - 使用配置文件: conf/meta_config.yaml
+2026-05-23 12:17:20.344 | INFO     | app.services.meta_knowledge_service:build:42 - 加载配置文件完成
+2026-05-23 12:17:20.398 | INFO     | app.services.meta_knowledge_service:build:82 - 保存 5 个表和 24 个字段到 meta 数据库
+2026-05-23 12:17:28.783 | INFO     | app.repositories.qdrant.column_qdrant_repository:upsert:42 - 成功插入 98 条向量到 column_info_collection
+2026-05-23 12:17:28.784 | INFO     | app.services.meta_knowledge_service:build:124 - 为 24 个字段建立了向量索引
+2026-05-23 12:17:29.595 | INFO     | app.services.meta_knowledge_service:build:147 - 为字段取值建立了全文索引，共 75 条
+2026-05-23 12:17:29.596 | INFO     | app.services.meta_knowledge_service:build:149 - 元数据知识库构建完成
+2026-05-24 17:57:48.288 | INFO     | __main__:<module>:55 - 使用配置文件: conf/meta_config.yaml
+2026-05-24 17:57:48.841 | INFO     | app.services.meta_knowledge_service:build:47 - 加载配置文件完成
+2026-05-24 17:57:48.932 | INFO     | app.services.meta_knowledge_service:build:87 - 保存 5 个表和 24 个字段到 meta 数据库
+2026-05-24 17:57:49.016 | INFO     | app.repositories.qdrant.column_qdrant_repository:ensure_collection:24 - 创建集合: column_info_collection
+2026-05-24 17:57:55.838 | INFO     | app.repositories.qdrant.column_qdrant_repository:upsert:42 - 成功插入 98 条向量到 column_info_collection
+2026-05-24 17:57:55.839 | INFO     | app.services.meta_knowledge_service:build:125 - 为 24 个字段建立了向量索引
+2026-05-24 17:57:56.071 | INFO     | app.services.meta_knowledge_service:build:148 - 为字段取值建立了全文索引，共 75 条
+2026-05-24 17:57:56.080 | INFO     | app.services.meta_knowledge_service:_save_metrics_to_meta_db:224 - 保存 2 个指标到 meta 数据库
+2026-05-24 17:57:56.154 | INFO     | app.repositories.qdrant.metric_qdrant_repository:ensure_collection:24 - 创建集合: metric_info_collection
+2026-05-24 17:57:56.833 | INFO     | app.repositories.qdrant.metric_qdrant_repository:upsert:42 - 成功插入 8 条向量到 metric_info_collection
+2026-05-24 17:57:56.833 | INFO     | app.services.meta_knowledge_service:build:191 - 为 2 个指标建立了向量索引
+2026-05-24 17:57:56.833 | INFO     | app.services.meta_knowledge_service:build:193 - 元数据知识库构建完成
+2026-05-25 17:02:14.175 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['统计华北地区2025年1月的销售总额', '销售总额', '华北地区', '统计']
+2026-05-25 17:02:14.176 | ERROR    | app.agent.nodes.recall_column:recall_column:43 - 召回字段信息失败: [Errno 2] No such file or directory: 'E:\\agent\\data-agent\\prompts\\extend_keywords_for_column_recall.prompt'
+2026-05-25 17:02:14.177 | ERROR    | app.agent.nodes.recall_metric:recall_metric:54 - 召回指标信息失败: [Errno 2] No such file or directory: 'E:\\agent\\data-agent\\prompts\\extend_keywords_for_metric_recall.prompt'
+2026-05-25 17:02:14.177 | ERROR    | app.agent.nodes.recall_value:recall_value:52 - 召回字段取值失败: [Errno 2] No such file or directory: 'E:\\agent\\data-agent\\prompts\\extend_keywords_for_value_recall.prompt'
+2026-05-25 23:20:29.239 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['统计华北地区2025年1月的销售总额', '统计', '华北地区', '销售总额']
+2026-05-25 23:20:30.081 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['统计', '统计华北地区2025年1月的销售总额', '华北地区', '华北', '销售总额']
+2026-05-25 23:20:30.333 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-25 23:20:30.939 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['区域', '统计', '地区', '日期', '2025年1月', '时间', '年份', '统计华北地区2025年1月的销售总额', '华北地区', '收入', '销售额', '月份', '销售总额']
+2026-05-25 23:20:30.939 | ERROR    | app.agent.nodes.recall_column:recall_column:43 - 召回字段信息失败: 'EmbeddingClientManager' object has no attribute 'aembed_query'
+2026-05-25 23:22:43.101 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['统计华北地区2025年1月的销售总额', '统计', '华北地区', '销售总额']
+2026-05-25 23:22:44.375 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['统计华北地区2025年1月的销售总额', '成交总额', '华北地区', '销售总额', '总收入', '统计', 'GMV', '销售金额', '销售额', '总销售额']
+2026-05-25 23:22:44.573 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['统计华北地区2025年1月的销售总额', '华北', '华北地区', '销售总额', '统计']
+2026-05-25 23:22:44.601 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-25 23:22:45.204 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['统计华北地区2025年1月的销售总额', '华北', '华北地区', '年月', '销售总额', '总收入', '2025-01', '统计', '月份', '地区', '销售金额', '营业额', '销售额', '2025年1月', '区域']
+2026-05-25 23:22:48.555 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-25 23:22:49.184 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['dim_region.region_name', 'dim_date.year', 'dim_date.month', 'fact_order.order_amount', 'fact_order.order_quantity', 'dim_date.date_id', 'dim_region.province', 'dim_region.country', 'fact_order.region_id', 'dim_region.region_id']
+2026-05-25 23:22:49.255 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['dim_region', 'dim_date', 'fact_order'], 指标信息-['GMV', 'AOV']
+2026-05-25 23:22:49.270 | ERROR    | app.agent.nodes.filter_table:filter_table:50 - 过滤表失败:'Input to PromptTemplate is missing variables {\'\\n    "表名1"\'}.  Expected: [\'\\n    "表名1"\', \'query\', \'table_infos\'] Received: [\'query\', \'table_infos\']\nNote: if you intended {\n    "表名1"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n    "表名1"}}\'.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/INVALID_PROMPT_INPUT '
+2026-05-25 23:24:53.535 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['华北地区', '统计华北地区2025年1月的销售总额', '统计', '销售总额']
+2026-05-25 23:24:54.525 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['华北', '统计华北地区2025年1月的销售总额', '统计', '销售总额', '华北地区']
+2026-05-25 23:24:54.542 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-25 23:24:54.977 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['总销售额', '销售收入', 'GMV', '成交总额', '统计华北地区2025年1月的销售总额', '统计', '销售总额', '华北地区', '销售额']
+2026-05-25 23:24:55.885 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-25 23:24:56.072 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['2025年1月', '年份', '华北', '地区', '营业额', '统计华北地区2025年1月的销售总额', '销售金额', '地理位置', '总收入', '统计', '销售总额', '月份', '华北地区', '区域', '销售额', '2025-01']
+2026-05-25 23:24:57.710 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['dim_date.year', 'dim_date.month', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.order_amount', 'fact_order.order_quantity', 'dim_date.date_id', 'fact_order.region_id', 'dim_region.region_id']
+2026-05-25 23:24:57.735 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['dim_date', 'dim_region', 'fact_order'], 指标信息-['GMV', 'AOV']
+2026-05-25 23:24:58.605 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: ['GMV']
+2026-05-25 23:25:00.514 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['dim_date', 'dim_region', 'fact_order']
+2026-05-25 23:25:00.525 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-25', 'weekday': 'Monday', 'quarter': 'Q2'}
+2026-05-25 23:25:04.536 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: SELECT SUM(f.order_amount) AS GMV
+FROM fact_order f
+JOIN dim_region r ON f.region_id = r.region_id
+JOIN dim_date d ON f.date_id = d.date_id
+WHERE r.region_name = '华北'
+  AND d.year = 2025
+  AND d.month = 1;
+2026-05-25 23:25:04.545 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: SELECT SUM(f.order_amount) AS GMV
+FROM fact_order f
+JOIN dim_region r ON f.region_id = r.region_id
+JOIN dim_date d ON f.date_id = d.date_id
+WHERE r.region_name = '华北'
+  AND d.year = 2025
+  AND d.month = 1;
+2026-05-25 23:25:04.549 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'GMV': 4021.0}]
+2026-05-26 15:05:28.102 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['GMV最高的商品是什么', '商品', '最高', 'GMV']
+2026-05-26 15:05:29.028 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['商品', '最高', 'GMV最高的商品是什么', '销售额', '成交额', 'GMV']
+2026-05-26 15:05:29.049 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：[]
+2026-05-26 15:05:29.095 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['商品', '总成交额', '商品交易总额', '最高', '成交总额', 'GMV最高的商品是什么', 'GMV']
+2026-05-26 15:05:29.328 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['商品ID', '商品', '最高', '成交总额', '商品名称', 'GMV最高的商品是什么', '订单金额', '销售额', '销量', 'GMV']
+2026-05-26 15:05:30.472 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-26 15:05:30.972 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.product_id', 'dim_product.product_id', 'dim_product.category', 'dim_product.product_name', 'dim_product.brand', 'fact_order.order_amount', 'fact_order.order_quantity', 'fact_order.order_id']
+2026-05-26 15:05:31.001 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['fact_order', 'dim_product'], 指标信息-['GMV', 'AOV']
+2026-05-26 15:05:31.582 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: ['GMV']
+2026-05-26 15:05:32.234 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_product']
+2026-05-26 15:05:32.245 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-26', 'weekday': 'Tuesday', 'quarter': 'Q2'}
+2026-05-26 15:05:34.071 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: SELECT dp.product_name
+FROM fact_order fo
+JOIN dim_product dp ON fo.product_id = dp.product_id
+GROUP BY dp.product_id, dp.product_name
+ORDER BY SUM(fo.order_amount) DESC
+LIMIT 1;
+2026-05-26 15:05:34.077 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: SELECT dp.product_name
+FROM fact_order fo
+JOIN dim_product dp ON fo.product_id = dp.product_id
+GROUP BY dp.product_id, dp.product_name
+ORDER BY SUM(fo.order_amount) DESC
+LIMIT 1;
+2026-05-26 15:05:34.082 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'product_name': 'iPhone 15 Pro'}]
+2026-05-29 15:25:46.738 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 15:25:47.109 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 15:58:03.804 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 15:58:08.314 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 15:58:08.555 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 15:59:15.411 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 15:59:25.629 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 15:59:25.847 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 16:03:40.537 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 16:05:39.192 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 16:05:39.420 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 16:40:15.175 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['统计华北地区2025年1月的销售总额', '销售总额', '统计', '华北地区']
+2026-05-29 16:42:00.868 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 16:45:08.155 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 16:45:08.546 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 16:47:01.456 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 16:48:39.672 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 16:48:39.887 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 16:52:31.897 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 16:57:10.140 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 16:57:10.368 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 16:58:27.201 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 16:58:27.309 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-29 16:58:32.021 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 16:58:32.326 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 16:58:39.670 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 16:58:39.778 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-29 16:58:44.460 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 16:58:44.691 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 16:58:54.400 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 16:58:54.509 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-29 16:59:04.473 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 16:59:04.698 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 16:59:11.898 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['销售总额', '统计华北地区2025年1月的销售总额', '统计', '华北地区']
+2026-05-29 16:59:12.928 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['销售总额', '华北地区', '统计华北地区2025年1月的销售总额', '华北', '统计']
+2026-05-29 16:59:12.985 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-29 16:59:13.360 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['销售总额', '华北地区', '总收入', '统计华北地区2025年1月的销售总额', '总销售额', 'GMV', '销售金额', '统计', '成交总额', '销售额']
+2026-05-29 16:59:14.126 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['销售总额', '华北地区', '总收入', '2025年1月', '地区', '月份', '统计华北地区2025年1月的销售总额', '日期', '华北', '2025-01', '时间', '销售金额', '年份', '统计', '区域', '销售额']
+2026-05-29 16:59:16.431 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-29 16:59:17.050 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'dim_date.month', 'dim_date.year', 'dim_date.date_id', 'fact_order.date_id', 'dim_date.day', 'fact_order.region_id', 'dim_region.region_id']
+2026-05-29 16:59:17.205 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['fact_order', 'dim_region', 'dim_date'], 指标信息-['GMV', 'AOV']
+2026-05-29 16:59:18.160 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: ['GMV']
+2026-05-29 16:59:19.075 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_region', 'dim_date']
+2026-05-29 16:59:19.087 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-29', 'weekday': 'Friday', 'quarter': 'Q2'}
+2026-05-29 16:59:21.525 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: SELECT SUM(f.order_amount) AS sales_total
+FROM fact_order f
+JOIN dim_region r ON f.region_id = r.region_id
+JOIN dim_date d ON f.date_id = d.date_id
+WHERE r.region_name = '华北'
+  AND d.year = 2025
+  AND d.month = 1;
+2026-05-29 16:59:21.538 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: SELECT SUM(f.order_amount) AS sales_total
+FROM fact_order f
+JOIN dim_region r ON f.region_id = r.region_id
+JOIN dim_date d ON f.date_id = d.date_id
+WHERE r.region_name = '华北'
+  AND d.year = 2025
+  AND d.month = 1;
+2026-05-29 16:59:21.542 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'sales_total': 4021.0}]
+2026-05-29 19:18:25.066 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['第一季度', '2025年第一季度的总销售额是多少', '销售额']
+2026-05-29 19:18:27.113 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['2025年第一季度', '销售总额', '第一季度', '季度销售额', '2025 Q1', '总销售额', '营收', '收入', 'Q1 2025', '2025年第一季度的总销售额是多少', '销售额']
+2026-05-29 19:18:27.128 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['销售总额', '第一季度', '2025年第一季度的总销售额是多少', '营业收入', '总销售额', 'GMV', '成交总额', '销售额']
+2026-05-29 19:18:27.342 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['2025年第一季度', '第一季度', '第一季度 2025', 'Q1 2025', '2025年第一季度的总销售额是多少', '销售额']
+2026-05-29 19:18:27.370 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_date.quarter.Q1']
+2026-05-29 19:18:28.536 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-29 19:18:28.816 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['dim_date.quarter', 'fact_order.order_amount', 'fact_order.order_quantity']
+2026-05-29 19:18:28.823 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['dim_date', 'fact_order'], 指标信息-['GMV', 'AOV']
+2026-05-29 19:18:29.552 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: ['GMV']
+2026-05-29 19:18:30.551 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['dim_date', 'fact_order']
+2026-05-29 19:18:30.555 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-29', 'weekday': 'Friday', 'quarter': 'Q2'}
+2026-05-29 19:18:32.825 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: SELECT SUM(f.order_amount) AS total_sales
+FROM fact_order f
+JOIN dim_date d ON f.date_id = d.date_id
+WHERE d.quarter = 'Q1' AND d.date_id BETWEEN 20250101 AND 20250331;
+2026-05-29 19:18:32.830 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: SELECT SUM(f.order_amount) AS total_sales
+FROM fact_order f
+JOIN dim_date d ON f.date_id = d.date_id
+WHERE d.quarter = 'Q1' AND d.date_id BETWEEN 20250101 AND 20250331;
+2026-05-29 19:18:32.834 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'total_sales': 279159.5}]
+2026-05-29 19:24:13.944 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['地区', '销量', '统计各地区销量前三的商品', '统计', '商品']
+2026-05-29 19:24:15.031 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['商品销量', '成交额', '地区', '销量', 'GMV', '统计各地区销量前三的商品', '统计', '销售量', '商品', '销售额']
+2026-05-29 19:24:15.288 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['前三', '品类', '地区', '销量', '排名', 'top3', '产品', '统计各地区销量前三的商品', '地域', '统计', '销售量', '商品', '区域', '销售额']
+2026-05-29 19:24:16.302 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-29 19:24:16.428 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['品类', '地区', '销量', '产品', '统计各地区销量前三的商品', '货品', '统计', '商品']
+2026-05-29 19:24:16.453 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_product.brand.三星']
+2026-05-29 19:24:16.931 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.order_quantity', 'dim_product.category', 'dim_product.brand', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.order_amount', 'dim_product.product_name', 'fact_order.product_id', 'dim_product.product_id', 'fact_order.region_id', 'dim_region.region_id']
+2026-05-29 19:24:16.939 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['fact_order', 'dim_product', 'dim_region'], 指标信息-['GMV', 'AOV']
+2026-05-29 19:24:17.534 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: []
+2026-05-29 19:24:18.507 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_product', 'dim_region']
+2026-05-29 19:24:18.509 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-29', 'weekday': 'Friday', 'quarter': 'Q2'}
+2026-05-29 19:24:22.605 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: SELECT 
+    dr.region_name AS 地区,
+    dp.product_name AS 商品名称,
+    SUM(fo.order_quantity) AS 销量
+FROM fact_order fo
+JOIN dim_product dp ON fo.product_id = dp.product_id
+JOIN dim_region dr ON fo.region_id = dr.region_id
+GROUP BY dr.region_id, dr.region_name, dp.product_id, dp.product_name
+HAVING (dr.region_id, SUM(fo.order_quantity)) IN (
+    SELECT 
+        region_id,
+        SUM(order_quantity) AS total_qty
+    FROM fact_order
+    WHERE region_id = fo.region_id
+    GROUP BY region_id, product_id
+    ORDER BY total_qty DESC
+    LIMIT 3
+)
+ORDER BY dr.region_name, 销量 DESC;
+2026-05-29 19:24:22.609 | ERROR    | app.agent.nodes.validate_sql:validate_sql:25 - SQL验证失败: SELECT 
+    dr.region_name AS 地区,
+    dp.product_name AS 商品名称,
+    SUM(fo.order_quantity) AS 销量
+FROM fact_order fo
+JOIN dim_product dp ON fo.product_id = dp.product_id
+JOIN dim_region dr ON fo.region_id = dr.region_id
+GROUP BY dr.region_id, dr.region_name, dp.product_id, dp.product_name
+HAVING (dr.region_id, SUM(fo.order_quantity)) IN (
+    SELECT 
+        region_id,
+        SUM(order_quantity) AS total_qty
+    FROM fact_order
+    WHERE region_id = fo.region_id
+    GROUP BY region_id, product_id
+    ORDER BY total_qty DESC
+    LIMIT 3
+)
+ORDER BY dr.region_name, 销量 DESC;
+2026-05-29 19:24:29.191 | INFO     | app.agent.nodes.correct_sql:correct_sql:44 - 校正后的SQL: SELECT 
+    dr.region_name AS 地区,
+    dp.product_name AS 商品名称,
+    SUM(fo.order_quantity) AS 销量
+FROM fact_order fo
+JOIN dim_product dp ON fo.product_id = dp.product_id
+JOIN dim_region dr ON fo.region_id = dr.region_id
+GROUP BY dr.region_id, dr.region_name, dp.product_id, dp.product_name
+HAVING (
+    SELECT COUNT(*)
+    FROM (
+        SELECT 
+            fo2.region_id,
+            fo2.product_id,
+            SUM(fo2.order_quantity) AS total_qty
+        FROM fact_order fo2
+        WHERE fo2.region_id = fo.region_id
+        GROUP BY fo2.region_id, fo2.product_id
+    ) AS region_products
+    WHERE region_products.region_id = fo.region_id
+      AND region_products.total_qty > SUM(fo.order_quantity)
+) < 3
+ORDER BY dr.region_name, 销量 DESC;
+2026-05-29 19:24:29.195 | ERROR    | app.agent.nodes.execute_sql:execute_sql:26 - 执行SQL失败:(asyncmy.errors.OperationalError) (1054, "Unknown column 'dw.fo.region_id' in 'where clause'")
+[SQL: SELECT 
+    dr.region_name AS 地区,
+    dp.product_name AS 商品名称,
+    SUM(fo.order_quantity) AS 销量
+FROM fact_order fo
+JOIN dim_product dp ON fo.product_id = dp.product_id
+JOIN dim_region dr ON fo.region_id = dr.region_id
+GROUP BY dr.region_id, dr.region_name, dp.product_id, dp.product_name
+HAVING (
+    SELECT COUNT(*)
+    FROM (
+        SELECT 
+            fo2.region_id,
+            fo2.product_id,
+            SUM(fo2.order_quantity) AS total_qty
+        FROM fact_order fo2
+        WHERE fo2.region_id = fo.region_id
+        GROUP BY fo2.region_id, fo2.product_id
+    ) AS region_products
+    WHERE region_products.region_id = fo.region_id
+      AND region_products.total_qty > SUM(fo.order_quantity)
+) < 3
+ORDER BY dr.region_name, 销量 DESC;]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-29 19:28:04.725 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['地区', '销量', '统计各地区销量前三的商品', '统计', '商品']
+2026-05-29 19:28:05.823 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['商品销量', '地区', '销量', '统计各地区销量前三的商品', '成交数量', '统计', '销售量', '销售数量', '商品', '销售额']
+2026-05-29 19:28:06.026 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['地区', '销量', '产品', '统计各地区销量前三的商品', '统计', '销售量', '商品', '区域', '销售额']
+2026-05-29 19:28:06.057 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_product.brand.三星']
+2026-05-29 19:28:06.720 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-29 19:28:07.966 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['前三', '品类', '地区', '销量', '排名', 'top3', '产品', '统计各地区销量前三的商品', '地域', '统计', '销售量', '商品', '区域', '销售额']
+2026-05-29 19:28:09.130 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.order_quantity', 'dim_product.category', 'dim_product.brand', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.order_amount', 'dim_product.product_name', 'fact_order.product_id', 'dim_product.product_id', 'fact_order.region_id', 'dim_region.region_id']
+2026-05-29 19:28:09.137 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['fact_order', 'dim_product', 'dim_region'], 指标信息-['GMV', 'AOV']
+2026-05-29 19:28:09.865 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: []
+2026-05-29 19:28:11.006 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_product', 'dim_region']
+2026-05-29 19:28:11.008 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-29', 'weekday': 'Friday', 'quarter': 'Q2'}
+2026-05-29 19:28:14.464 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-05-29 19:28:14.470 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-05-29 19:28:14.475 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'地区': '华东', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('100')}, {'地区': '华东', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('45')}, {'地区': '华东', '商品名称': '乐事原味薯片 150g', '销量': Decimal('35')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('22')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('4')}, {'地区': '华东', '商品名称': '李维斯 501 牛仔裤', '销量': Decimal('3')}, {'地区': '华中', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('48')}, {'地区': '华中', '商品名称': '乐事原味薯片 150g', '销量': Decimal('20')}, {'地区': '华中', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('5')}, {'地区': '华北', '商品名称': '乐事原味薯片 150g', '销量': Decimal('27')}, {'地区': '华北', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('24')}, {'地区': '华北', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('9')}, {'地区': '华南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('48')}, {'地区': '华南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('40')}, {'地区': '华南', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('16')}, {'地区': '西南', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('56')}, {'地区': '西南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('10')}, {'地区': '西南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('9')}]
+2026-05-29 19:30:09.025 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 19:30:09.133 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-29 19:30:13.637 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 19:30:13.856 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 19:30:14.950 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 19:30:15.060 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-29 19:30:32.754 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 19:30:32.971 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 19:31:23.572 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 19:31:23.680 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-29 19:31:28.111 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 19:31:28.337 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 19:32:01.990 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 19:32:02.100 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-29 19:32:06.561 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 19:32:06.782 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 19:32:30.531 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 19:32:30.639 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-29 19:32:34.993 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 19:32:35.214 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 19:32:53.793 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 19:32:53.903 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-29 19:33:08.199 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 19:33:08.418 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 19:33:14.369 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['地区', '销量', '商品', '统计', '统计各地区销量前三的商品']
+2026-05-29 19:33:15.803 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['品类', '地区', '销量', '地域', '区域', '销售量', '销售额', '产品', '统计', '商品', '排名', '前三', 'top3', '统计各地区销量前三的商品']
+2026-05-29 19:33:15.839 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['商品销量', '销售数量', '地区', '销量', '订单量', '销售量', '成交件数', '统计', '商品', '统计各地区销量前三的商品']
+2026-05-29 19:33:16.147 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['西北', '华南', '华东', '地区', '东北', '销量', '华北', '销售量', '区域', '产品', '统计', '商品', '西南', '华中', '统计各地区销量前三的商品']
+2026-05-29 19:33:16.201 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_region.region_name.华南', 'dim_region.region_name.华东', 'dim_region.region_name.华北', 'dim_region.region_name.西南', 'dim_region.region_name.华中', 'dim_product.brand.三星']
+2026-05-29 19:33:17.435 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-29 19:33:17.764 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['dim_product.category', 'dim_product.brand', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.order_quantity', 'fact_order.order_amount', 'fact_order.region_id', 'dim_region.region_id', 'dim_product.product_name', 'fact_order.product_id', 'dim_product.product_id']
+2026-05-29 19:33:17.785 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['dim_product', 'dim_region', 'fact_order'], 指标信息-['GMV', 'AOV']
+2026-05-29 19:33:18.361 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: []
+2026-05-29 19:33:19.320 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['dim_product', 'dim_region', 'fact_order']
+2026-05-29 19:33:19.330 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-29', 'weekday': 'Friday', 'quarter': 'Q2'}
+2026-05-29 19:33:24.471 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-05-29 19:33:24.475 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-05-29 19:33:24.478 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'地区': '华东', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('100')}, {'地区': '华东', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('45')}, {'地区': '华东', '商品名称': '乐事原味薯片 150g', '销量': Decimal('35')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('22')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('4')}, {'地区': '华东', '商品名称': '李维斯 501 牛仔裤', '销量': Decimal('3')}, {'地区': '华中', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('48')}, {'地区': '华中', '商品名称': '乐事原味薯片 150g', '销量': Decimal('20')}, {'地区': '华中', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('5')}, {'地区': '华北', '商品名称': '乐事原味薯片 150g', '销量': Decimal('27')}, {'地区': '华北', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('24')}, {'地区': '华北', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('9')}, {'地区': '华南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('48')}, {'地区': '华南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('40')}, {'地区': '华南', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('16')}, {'地区': '西南', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('56')}, {'地区': '西南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('10')}, {'地区': '西南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('9')}]
+2026-05-29 19:34:33.837 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['统计2025年第一季度，每个大区销售额排名前三的商品，并列出其销售额和销量。', '并列', '大区', '销量', '销售额', '排名', '统计', '商品', '第一季度']
+2026-05-29 19:34:35.302 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['销售金额', '统计2025年第一季度，每个大区销售额排名前三的商品，并列出其销售额和销量。', '商品销量', '并列', '大区', '销售数量', '销售件数', 'GMV', '销量', '成交总额', '销售额', '排名', '统计', '商品', '第一季度', '销售收入']
+2026-05-29 19:34:35.530 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['统计2025年第一季度，每个大区销售额排名前三的商品，并列出其销售额和销量。', '西北', '华南', '并列', '大区', '华东', '东北', '销量', '华北', '销售额', '排名', '区域', '统计', '商品', '第一季度', '西南', '华中']
+2026-05-29 19:34:35.585 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_product.brand.三星', 'dim_region.region_name.华南', 'dim_region.region_name.华东', 'dim_region.region_name.华北', 'dim_region.region_name.西南', 'dim_region.region_name.华中']
+2026-05-29 19:34:36.188 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['销售金额', '销量', '季度', '收入', '销售量', '时间', '统计2025年第一季度，每个大区销售额排名前三的商品，并列出其销售额和销量。', '销售数量', '排行', '销售额', '统计', '第一季度', '年份', '并列', '大区', '地区', '区域', '排名', '产品', '2025年', '商品']
+2026-05-29 19:34:37.438 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-29 19:34:38.637 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_date.quarter', 'dim_date.month', 'dim_date.date_id', 'fact_order.date_id', 'dim_date.year', 'dim_region.region_name', 'fact_order.region_id', 'dim_region.region_id', 'dim_region.province', 'dim_region.country', 'dim_product.product_name', 'dim_product.brand', 'dim_product.category', 'fact_order.product_id', 'dim_product.product_id']
+2026-05-29 19:34:38.647 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['fact_order', 'dim_date', 'dim_region', 'dim_product'], 指标信息-['GMV', 'AOV']
+2026-05-29 19:34:39.450 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: ['GMV']
+2026-05-29 19:34:41.563 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_date', 'dim_region', 'dim_product']
+2026-05-29 19:34:41.566 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-29', 'weekday': 'Friday', 'quarter': 'Q2'}
+2026-05-29 19:34:49.113 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: WITH RankedProducts AS (
+    SELECT
+        r.region_name AS 大区,
+        p.product_name AS 商品名称,
+        SUM(o.order_amount) AS 销售额,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_amount) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_date d ON o.date_id = d.date_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    JOIN dim_product p ON o.product_id = p.product_id
+    WHERE d.year = 2025 AND d.quarter = 'Q1'
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 大区, 商品名称, 销售额, 销量
+FROM RankedProducts
+WHERE rn <= 3
+ORDER BY 大区, 销售额 DESC;
+2026-05-29 19:34:49.116 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: WITH RankedProducts AS (
+    SELECT
+        r.region_name AS 大区,
+        p.product_name AS 商品名称,
+        SUM(o.order_amount) AS 销售额,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_amount) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_date d ON o.date_id = d.date_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    JOIN dim_product p ON o.product_id = p.product_id
+    WHERE d.year = 2025 AND d.quarter = 'Q1'
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 大区, 商品名称, 销售额, 销量
+FROM RankedProducts
+WHERE rn <= 3
+ORDER BY 大区, 销售额 DESC;
+2026-05-29 19:34:49.120 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'大区': '华东', '商品名称': 'Galaxy S24 Ultra', '销售额': 18998.0, '销量': Decimal('2')}, {'大区': '华东', '商品名称': 'iPhone 15 Pro', '销售额': 17998.0, '销量': Decimal('2')}, {'大区': '华东', '商品名称': 'Mate 60 Pro', '销售额': 13998.0, '销量': Decimal('2')}, {'大区': '华东', '商品名称': 'Mate 60 Pro', '销售额': 13998.0, '销量': Decimal('2')}, {'大区': '华东', '商品名称': 'Galaxy S24 Ultra', '销售额': 9499.0, '销量': Decimal('1')}, {'大区': '华东', '商品名称': '戴森 V15 吸尘器', '销售额': 5499.0, '销量': Decimal('1')}, {'大区': '华中', '商品名称': 'Galaxy S24 Ultra', '销售额': 9499.0, '销量': Decimal('1')}, {'大区': '华中', '商品名称': 'Mate 60 Pro', '销售额': 6999.0, '销量': Decimal('1')}, {'大区': '华中', '商品名称': '戴森 V15 吸尘器', '销售额': 5499.0, '销量': Decimal('1')}, {'大区': '华北', '商品名称': 'Galaxy S24 Ultra', '销售额': 9499.0, '销量': Decimal('1')}, {'大区': '华北', '商品名称': 'iPhone 15 Pro', '销售额': 8999.0, '销量': Decimal('1')}, {'大区': '华北', '商品名称': 'Mate 60 Pro', '销售额': 6999.0, '销量': Decimal('1')}, {'大区': '华南', '商品名称': 'iPhone 15 Pro', '销售额': 26997.0, '销量': Decimal('3')}, {'大区': '华南', '商品名称': 'Mate 60 Pro', '销售额': 13998.0, '销量': Decimal('2')}, {'大区': '华南', '商品名称': 'Galaxy S24 Ultra', '销售额': 9499.0, '销量': Decimal('1')}, {'大区': '西南', '商品名称': 'iPhone 15 Pro', '销售额': 17998.0, '销量': Decimal('2')}, {'大区': '西南', '商品名称': '戴森 V15 吸尘器', '销售额': 5499.0, '销量': Decimal('1')}, {'大区': '西南', '商品名称': '美的空调 KFR-35GW', '销售额': 3200.0, '销量': Decimal('1')}]
+2026-05-29 19:35:14.281 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['数据', '增长率', '计算', '计算 2025 年 1 月相较于 2024 年 1 月的销售额增长率（同比），以及相较于 2025 年 2 月的增长率（环比，如果有数据的话）。', '月相', '销售额']
+2026-05-29 19:35:15.193 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['销售金额', '数据', '增长率', '计算 2025 年 1 月相较于 2024 年 1 月的销售额增长率（同比），以及相较于 2025 年 2 月的增长率（环比，如果有数据的话）。', '计算', '月相', '收入', '销售额', '营收']
+2026-05-29 19:35:15.211 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_date.quarter.Q1']
+2026-05-29 19:35:15.753 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['数据', '销售总额', '增长率', '计算 2025 年 1 月相较于 2024 年 1 月的销售额增长率（同比），以及相较于 2025 年 2 月的增长率（环比，如果有数据的话）。', '计算', '营业额', '月相', 'GMV', '成交总额', '销售额', '销售收入']
+2026-05-29 19:35:16.832 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-29 19:35:17.051 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['销售金额', '数据', '2025年2月', '计算', '2024年1月', '收入', '时间', '月份', '同比', '增长率', '增长', '2025年1月', '销售额', '环比增长率', '日期', '环比', '年份', '营业额', '计算 2025 年 1 月相较于 2024 年 1 月的销售额增长率（同比），以及相较于 2025 年 2 月的增长率（环比，如果有数据的话）。', '月相', '同比增长率']
+2026-05-29 19:35:18.855 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.province', 'dim_date.date_id', 'fact_order.date_id', 'dim_date.year', 'dim_date.month', 'dim_date.day']
+2026-05-29 19:35:18.863 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['fact_order', 'dim_region', 'dim_date'], 指标信息-['GMV', 'AOV']
+2026-05-29 19:35:19.664 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: ['GMV']
+2026-05-29 19:35:20.316 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_date']
+2026-05-29 19:35:20.318 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-29', 'weekday': 'Friday', 'quarter': 'Q2'}
+2026-05-29 19:35:31.531 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: WITH MonthlySales AS (
+    SELECT
+        d.year,
+        d.month,
+        SUM(f.order_amount) AS gmv
+    FROM fact_order f
+    JOIN dim_date d ON f.date_id = d.date_id
+    WHERE (d.year = 2024 AND d.month = 1)
+       OR (d.year = 2025 AND d.month IN (1, 2))
+    GROUP BY d.year, d.month
+)
+SELECT
+    (SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 1) AS gmv_2025_01,
+    (SELECT gmv FROM MonthlySales WHERE year = 2024 AND month = 1) AS gmv_2024_01,
+    (SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 2) AS gmv_2025_02,
+    CASE
+        WHEN (SELECT gmv FROM MonthlySales WHERE year = 2024 AND month = 1) IS NOT NULL
+             AND (SELECT gmv FROM MonthlySales WHERE year = 2024 AND month = 1) != 0
+        THEN ROUND(
+            ((SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 1) - 
+             (SELECT gmv FROM MonthlySales WHERE year = 2024 AND month = 1)) * 100.0 / 
+            (SELECT gmv FROM MonthlySales WHERE year = 2024 AND month = 1),
+            2
+        )
+        ELSE NULL
+    END AS yoy_growth_rate_percent,
+    CASE
+        WHEN (SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 2) IS NOT NULL
+             AND (SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 2) != 0
+        THEN ROUND(
+            ((SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 1) - 
+             (SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 2)) * 100.0 / 
+            (SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 2),
+            2
+        )
+        ELSE NULL
+    END AS mom_growth_rate_percent;
+2026-05-29 19:35:31.536 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: WITH MonthlySales AS (
+    SELECT
+        d.year,
+        d.month,
+        SUM(f.order_amount) AS gmv
+    FROM fact_order f
+    JOIN dim_date d ON f.date_id = d.date_id
+    WHERE (d.year = 2024 AND d.month = 1)
+       OR (d.year = 2025 AND d.month IN (1, 2))
+    GROUP BY d.year, d.month
+)
+SELECT
+    (SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 1) AS gmv_2025_01,
+    (SELECT gmv FROM MonthlySales WHERE year = 2024 AND month = 1) AS gmv_2024_01,
+    (SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 2) AS gmv_2025_02,
+    CASE
+        WHEN (SELECT gmv FROM MonthlySales WHERE year = 2024 AND month = 1) IS NOT NULL
+             AND (SELECT gmv FROM MonthlySales WHERE year = 2024 AND month = 1) != 0
+        THEN ROUND(
+            ((SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 1) - 
+             (SELECT gmv FROM MonthlySales WHERE year = 2024 AND month = 1)) * 100.0 / 
+            (SELECT gmv FROM MonthlySales WHERE year = 2024 AND month = 1),
+            2
+        )
+        ELSE NULL
+    END AS yoy_growth_rate_percent,
+    CASE
+        WHEN (SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 2) IS NOT NULL
+             AND (SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 2) != 0
+        THEN ROUND(
+            ((SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 1) - 
+             (SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 2)) * 100.0 / 
+            (SELECT gmv FROM MonthlySales WHERE year = 2025 AND month = 2),
+            2
+        )
+        ELSE NULL
+    END AS mom_growth_rate_percent;
+2026-05-29 19:35:31.540 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'gmv_2025_01': 109030.5, 'gmv_2024_01': None, 'gmv_2025_02': 80009.0, 'yoy_growth_rate_percent': None, 'mom_growth_rate_percent': 36.27}]
+2026-05-29 19:36:38.708 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['订单', '数量', '总金额', '找出', '平均', '金额', '客户', '统计', '购买', '找出消费总金额最高的前 5 名客户，并统计他们的平均订单金额、总订单数量，以及最近一次购买日期。', '最高', '消费']
+2026-05-29 19:36:40.088 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['订单', '订单金额', '订单数量', '数量', '消费总金额', '购买日期', '总金额', '找出', '平均', '金额', '客户', '统计', '购买', '找出消费总金额最高的前 5 名客户，并统计他们的平均订单金额、总订单数量，以及最近一次购买日期。', '最高', '消费']
+2026-05-29 19:36:40.111 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：[]
+2026-05-29 19:36:40.912 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['最后购买时间', '订单', '总消费金额', '订单金额', '数量', '最近购买日期', '总金额', '购买日期', '消费总金额', '客户ID', '找出', '平均订单金额', '交易日期', '找出消费总金额最高的前 5 名客户，并统计他们的平均订单金额、总订单数量，以及最近一次购买日期。', '消费', '用户ID', '平均', '金额', '统计', '购买', '最高', '总订单数', '订单数量', '消费金额', '客户', '顾客', '用户']
+2026-05-29 19:36:41.018 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['订单', '总消费金额', '数量', 'GMV', '总金额', '成交总额', '消费总金额', 'AOV', '最近购买时间', '客单价', '找出', '平均订单金额', '找出消费总金额最高的前 5 名客户，并统计他们的平均订单金额、总订单数量，以及最近一次购买日期。', '消费', '平均', '金额', '销售额', '统计', '购买', '最高', '总订单数量', '最近一次购买日期', '客户', '客户消费总额', '订单数']
+2026-05-29 19:36:45.116 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-29 19:36:45.260 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.date_id', 'fact_order.order_quantity', 'fact_order.order_amount', 'fact_order.order_id', 'dim_product.category', 'dim_date.date_id', 'dim_customer.customer_id', 'fact_order.customer_id', 'dim_region.province', 'dim_date.day', 'dim_customer.customer_name', 'dim_customer.gender', 'dim_customer.member_level']
+2026-05-29 19:36:45.270 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['fact_order', 'dim_product', 'dim_date', 'dim_customer', 'dim_region'], 指标信息-['GMV', 'AOV']
+2026-05-29 19:36:46.121 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: ['GMV', 'AOV']
+2026-05-29 19:36:46.924 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_date', 'dim_customer']
+2026-05-29 19:36:46.926 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-29', 'weekday': 'Friday', 'quarter': 'Q2'}
+2026-05-29 19:36:54.337 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: WITH CustomerSpending AS (
+    SELECT
+        fo.customer_id,
+        SUM(fo.order_amount) AS total_spent,
+        COUNT(*) AS total_orders,
+        AVG(fo.order_amount) AS avg_order_amount,
+        MAX(dd.date_id) AS latest_date_id
+    FROM fact_order fo
+    JOIN dim_date dd ON fo.date_id = dd.date_id
+    GROUP BY fo.customer_id
+),
+RankedCustomers AS (
+    SELECT
+        cs.customer_id,
+        cs.total_spent,
+        cs.total_orders,
+        cs.avg_order_amount,
+        cs.latest_date_id,
+        ROW_NUMBER() OVER (ORDER BY cs.total_spent DESC) AS rn
+    FROM CustomerSpending cs
+)
+SELECT
+    dc.customer_name,
+    rc.total_spent AS consumption_total,
+    rc.avg_order_amount,
+    rc.total_orders,
+    STR_TO_DATE(CAST(rc.latest_date_id AS CHAR), '%Y%m%d') AS latest_purchase_date
+FROM RankedCustomers rc
+JOIN dim_customer dc ON rc.customer_id = dc.customer_id
+WHERE rc.rn <= 5
+ORDER BY rc.total_spent DESC;
+2026-05-29 19:36:54.342 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: WITH CustomerSpending AS (
+    SELECT
+        fo.customer_id,
+        SUM(fo.order_amount) AS total_spent,
+        COUNT(*) AS total_orders,
+        AVG(fo.order_amount) AS avg_order_amount,
+        MAX(dd.date_id) AS latest_date_id
+    FROM fact_order fo
+    JOIN dim_date dd ON fo.date_id = dd.date_id
+    GROUP BY fo.customer_id
+),
+RankedCustomers AS (
+    SELECT
+        cs.customer_id,
+        cs.total_spent,
+        cs.total_orders,
+        cs.avg_order_amount,
+        cs.latest_date_id,
+        ROW_NUMBER() OVER (ORDER BY cs.total_spent DESC) AS rn
+    FROM CustomerSpending cs
+)
+SELECT
+    dc.customer_name,
+    rc.total_spent AS consumption_total,
+    rc.avg_order_amount,
+    rc.total_orders,
+    STR_TO_DATE(CAST(rc.latest_date_id AS CHAR), '%Y%m%d') AS latest_purchase_date
+FROM RankedCustomers rc
+JOIN dim_customer dc ON rc.customer_id = dc.customer_id
+WHERE rc.rn <= 5
+ORDER BY rc.total_spent DESC;
+2026-05-29 19:36:54.346 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'customer_name': '李伟', 'consumption_total': 20764.5, 'avg_order_amount': 3460.75, 'total_orders': 6, 'latest_purchase_date': datetime.date(2025, 3, 29)}, {'customer_name': '徐浩', 'consumption_total': 19694.0, 'avg_order_amount': 3282.3333333333335, 'total_orders': 6, 'latest_purchase_date': datetime.date(2025, 3, 19)}, {'customer_name': '何娜', 'consumption_total': 19644.0, 'avg_order_amount': 3274.0, 'total_orders': 6, 'latest_purchase_date': datetime.date(2025, 3, 25)}, {'customer_name': '高梅', 'consumption_total': 19500.0, 'avg_order_amount': 3250.0, 'total_orders': 6, 'latest_purchase_date': datetime.date(2025, 3, 18)}, {'customer_name': '胡杰', 'consumption_total': 18982.5, 'avg_order_amount': 3163.75, 'total_orders': 6, 'latest_purchase_date': datetime.date(2025, 3, 28)}]
+2026-05-29 19:38:20.189 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 19:38:20.300 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-29 19:38:24.772 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 19:38:24.994 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 19:39:30.489 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 19:39:30.599 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-29 19:39:35.203 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 19:39:35.432 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 19:39:38.736 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['最高', '客户', '消费', '统计', '找出', '订单', '平均', '数量', '总金额', '金额', '购买', '找出消费总金额最高的前 5 名客户，并统计他们的平均订单金额、总订单数量，以及最近一次购买日期。']
+2026-05-29 19:39:39.852 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['订单数量', '最高', '购买日期', '客户', '消费', '统计', '找出', '订单', '平均', '数量', '总金额', '金额', '消费总金额', '购买', '订单金额', '找出消费总金额最高的前 5 名客户，并统计他们的平均订单金额、总订单数量，以及最近一次购买日期。']
+2026-05-29 19:39:39.873 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：[]
+2026-05-29 19:39:40.953 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['交易金额', '最新订单日期', '订单数', '购买', '购买日期', '总订单数量', '消费', '消费总金额', '数量', '总金额', '金额', '最高', '客户', '订单总数', '找出', '消费总额', '订单', '用户', '找出消费总金额最高的前 5 名客户，并统计他们的平均订单金额、总订单数量，以及最近一次购买日期。', '客户ID', '平均订单金额', '统计', '平均', '最近购买日期', '订单金额']
+2026-05-29 19:39:40.955 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['订单均价', '最近一次购买日期', 'GMV', '销售额', '订单数', '购买', '购买频次', '总订单数量', '消费', '消费总金额', '数量', '总金额', '金额', '最高', '客户', '找出', '订单', '客户消费总额', '客单价', '找出消费总金额最高的前 5 名客户，并统计他们的平均订单金额、总订单数量，以及最近一次购买日期。', '平均订单金额', '统计', '平均', '最后购买时间', '最近购买日', 'AOV', '总消费额', '成交总额']
+2026-05-29 19:39:45.197 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'fact_order.date_id', 'dim_date.date_id', 'fact_order.order_id', 'dim_region.province', 'dim_product.category', 'dim_customer.customer_name', 'fact_order.customer_id', 'dim_customer.customer_id', 'dim_customer.gender', 'dim_customer.member_level']
+2026-05-29 19:39:45.454 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['AOV', 'GMV']
+2026-05-29 19:39:45.477 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['fact_order', 'dim_date', 'dim_region', 'dim_product', 'dim_customer'], 指标信息-['AOV', 'GMV']
+2026-05-29 19:39:46.257 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: ['AOV', 'GMV']
+2026-05-29 19:39:47.683 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_date', 'dim_customer']
+2026-05-29 19:39:47.694 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-29', 'weekday': 'Friday', 'quarter': 'Q2'}
+2026-05-29 19:39:53.055 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: WITH CustomerSpending AS (
+    SELECT
+        c.customer_id,
+        c.customer_name,
+        SUM(o.order_amount) AS total_spent,
+        COUNT(o.order_id) AS total_orders,
+        AVG(o.order_amount) AS avg_order_amount,
+        MAX(d.date_id) AS latest_date_id
+    FROM fact_order o
+    JOIN dim_customer c ON o.customer_id = c.customer_id
+    JOIN dim_date d ON o.date_id = d.date_id
+    GROUP BY c.customer_id, c.customer_name
+),
+RankedCustomers AS (
+    SELECT
+        customer_id,
+        customer_name,
+        total_spent,
+        total_orders,
+        avg_order_amount,
+        latest_date_id,
+        ROW_NUMBER() OVER (ORDER BY total_spent DESC) AS rn
+    FROM CustomerSpending
+)
+SELECT
+    customer_id,
+    customer_name,
+    total_spent AS consumption_total,
+    avg_order_amount,
+    total_orders,
+    STR_TO_DATE(CAST(latest_date_id AS CHAR), '%Y%m%d') AS latest_purchase_date
+FROM RankedCustomers
+WHERE rn <= 5
+ORDER BY total_spent DESC;
+2026-05-29 19:39:53.058 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: WITH CustomerSpending AS (
+    SELECT
+        c.customer_id,
+        c.customer_name,
+        SUM(o.order_amount) AS total_spent,
+        COUNT(o.order_id) AS total_orders,
+        AVG(o.order_amount) AS avg_order_amount,
+        MAX(d.date_id) AS latest_date_id
+    FROM fact_order o
+    JOIN dim_customer c ON o.customer_id = c.customer_id
+    JOIN dim_date d ON o.date_id = d.date_id
+    GROUP BY c.customer_id, c.customer_name
+),
+RankedCustomers AS (
+    SELECT
+        customer_id,
+        customer_name,
+        total_spent,
+        total_orders,
+        avg_order_amount,
+        latest_date_id,
+        ROW_NUMBER() OVER (ORDER BY total_spent DESC) AS rn
+    FROM CustomerSpending
+)
+SELECT
+    customer_id,
+    customer_name,
+    total_spent AS consumption_total,
+    avg_order_amount,
+    total_orders,
+    STR_TO_DATE(CAST(latest_date_id AS CHAR), '%Y%m%d') AS latest_purchase_date
+FROM RankedCustomers
+WHERE rn <= 5
+ORDER BY total_spent DESC;
+2026-05-29 19:39:53.061 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'customer_id': 'C001', 'customer_name': '李伟', 'consumption_total': 20764.5, 'avg_order_amount': 3460.75, 'total_orders': 6, 'latest_purchase_date': datetime.date(2025, 3, 29)}, {'customer_id': 'C010', 'customer_name': '徐浩', 'consumption_total': 19694.0, 'avg_order_amount': 3282.3333333333335, 'total_orders': 6, 'latest_purchase_date': datetime.date(2025, 3, 19)}, {'customer_id': 'C017', 'customer_name': '何娜', 'consumption_total': 19644.0, 'avg_order_amount': 3274.0, 'total_orders': 6, 'latest_purchase_date': datetime.date(2025, 3, 25)}, {'customer_id': 'C015', 'customer_name': '高梅', 'consumption_total': 19500.0, 'avg_order_amount': 3250.0, 'total_orders': 6, 'latest_purchase_date': datetime.date(2025, 3, 18)}, {'customer_id': 'C014', 'customer_name': '胡杰', 'consumption_total': 18982.5, 'avg_order_amount': 3163.75, 'total_orders': 6, 'latest_purchase_date': datetime.date(2025, 3, 28)}]
+2026-05-29 20:54:16.152 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-29 20:54:16.261 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-29 20:54:35.713 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-29 20:54:35.934 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-29 20:55:07.409 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['第一季度', "统计 2025 年第一季度，除了'华东'和'华南'地区外，其他地区销售额最高的商品是什么，卖出多少件？", '统计', '商品', '卖出', '地区', '华南', '销售额', '最高', '华东']
+2026-05-29 20:55:08.600 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['东北', '第一季度', '西南', "统计 2025 年第一季度，除了'华东'和'华南'地区外，其他地区销售额最高的商品是什么，卖出多少件？", '统计', '华北', '西北', '华中', '商品', '卖出', '地区', '华南', '销售额', '最高', '华东']
+2026-05-29 20:55:08.641 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_region.region_name.西南', 'dim_region.region_name.华南', 'dim_region.region_name.华东', 'dim_region.region_name.华北', 'dim_region.region_name.华中']
+2026-05-29 20:55:09.108 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['第一季度', "统计 2025 年第一季度，除了'华东'和'华南'地区外，其他地区销售额最高的商品是什么，卖出多少件？", '统计', '成交额', '商品销量', '销售数量', '销售金额', 'GMV', '销售收入', '商品', '卖出', '地区', '华南', '销售额', '最高', '华东', '卖出件数']
+2026-05-29 20:55:09.486 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['第一季度', '2025年第一季度', '产品', '商品', '地区', '件数', "统计 2025 年第一季度，除了'华东'和'华南'地区外，其他地区销售额最高的商品是什么，卖出多少件？", '销量', '季度', '销售数量', '卖出', '销售额', '华东', '年份', '最高', '时间', '统计', '销售量', '区域', '华南']
+2026-05-29 20:55:12.231 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-29 20:55:12.783 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['dim_date.quarter', 'dim_product.product_name', 'dim_product.brand', 'dim_product.category', 'fact_order.product_id', 'dim_product.product_id', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.order_quantity', 'fact_order.order_amount', 'dim_date.year', 'dim_date.month', 'dim_date.date_id', 'fact_order.date_id', 'fact_order.region_id', 'dim_region.region_id']
+2026-05-29 20:55:12.806 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['dim_date', 'dim_product', 'fact_order', 'dim_region'], 指标信息-['GMV', 'AOV']
+2026-05-29 20:55:13.987 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: []
+2026-05-29 20:55:15.446 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['dim_date', 'dim_product', 'fact_order', 'dim_region']
+2026-05-29 20:55:15.456 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-29', 'weekday': 'Friday', 'quarter': 'Q2'}
+2026-05-29 20:55:20.090 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: WITH RankedProducts AS (
+    SELECT
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_date d ON o.date_id = d.date_id
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    WHERE d.year = 2025
+      AND d.quarter = 'Q1'
+      AND r.region_name NOT IN ('华东', '华南')
+    GROUP BY p.product_id, p.product_name
+)
+SELECT 商品名称, 销量
+FROM RankedProducts
+WHERE rn = 1;
+2026-05-29 20:55:20.093 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: WITH RankedProducts AS (
+    SELECT
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_date d ON o.date_id = d.date_id
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    WHERE d.year = 2025
+      AND d.quarter = 'Q1'
+      AND r.region_name NOT IN ('华东', '华南')
+    GROUP BY p.product_id, p.product_name
+)
+SELECT 商品名称, 销量
+FROM RankedProducts
+WHERE rn = 1;
+2026-05-29 20:55:20.096 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('128')}]
+2026-05-29 20:56:55.599 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['找出', '顺序', '超过', '计算', '按日期顺序，计算 2025 年 1 月每天的累计销售额（从 1 月 1 日到当天的销售额总和），并找出累计销售额首次超过 5000 元的日期。', '销售额', '总和', '累计']
+2026-05-29 20:56:56.947 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['日期', '找出', '顺序', '2025年1月', '超过', '按日期顺序，计算 2025 年 1 月每天的累计销售额（从 1 月 1 日到当天的销售额总和），并找出累计销售额首次超过 5000 元的日期。', '计算', '销售额', '5000元', '总和', '累计销售额', '累计']
+2026-05-29 20:56:56.977 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_date.quarter.Q1']
+2026-05-29 20:56:57.044 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['找出', '顺序', '收入', '超过', '按日期顺序，计算 2025 年 1 月每天的累计销售额（从 1 月 1 日到当天的销售额总和），并找出累计销售额首次超过 5000 元的日期。', '计算', '成交总额', '销售总额', 'GMV', '销售额', '总和', '累计销售额', '累计']
+2026-05-29 20:56:58.522 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-29 20:56:58.607 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['找出', '顺序', '第一次', '营业额', '交易日期', '5000元', '累计销售额', '累计', '突破', '超过', '天', '按日期顺序，计算 2025 年 1 月每天的累计销售额（从 1 月 1 日到当天的销售额总和），并找出累计销售额首次超过 5000 元的日期。', '累计销售金额', '销售额', '合计', '日期', '日', '收入', '销售日期', '首次', '累计总额', '计算', '目标金额', '总和', '累计值', '时间', '累计收入', '阈值', '销售金额', '大于', '订单日期']
+2026-05-29 20:57:01.781 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['dim_region.province', 'dim_product.category', 'fact_order.date_id', 'dim_date.date_id', 'fact_order.order_quantity', 'dim_date.year', 'fact_order.order_amount', 'dim_date.day', 'dim_date.month', 'fact_order.order_id']
+2026-05-29 20:57:01.792 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['dim_region', 'dim_product', 'fact_order', 'dim_date'], 指标信息-['GMV', 'AOV']
+2026-05-29 20:57:02.874 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: ['GMV']
+2026-05-29 20:57:03.239 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_date']
+2026-05-29 20:57:03.243 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-29', 'weekday': 'Friday', 'quarter': 'Q2'}
+2026-05-29 20:57:08.800 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: WITH DailySales AS (
+    SELECT
+        d.date_id,
+        SUM(f.order_amount) AS daily_sales
+    FROM fact_order f
+    JOIN dim_date d ON f.date_id = d.date_id
+    WHERE d.year = 2025 AND d.month = 1
+    GROUP BY d.date_id
+    ORDER BY d.date_id
+),
+CumulativeSales AS (
+    SELECT
+        date_id,
+        SUM(daily_sales) OVER (ORDER BY date_id ROWS UNBOUNDED PRECEDING) AS cumulative_gmv
+    FROM DailySales
+)
+SELECT MIN(date_id) AS first_date_exceeding_5000
+FROM CumulativeSales
+WHERE cumulative_gmv > 5000;
+2026-05-29 20:57:08.805 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: WITH DailySales AS (
+    SELECT
+        d.date_id,
+        SUM(f.order_amount) AS daily_sales
+    FROM fact_order f
+    JOIN dim_date d ON f.date_id = d.date_id
+    WHERE d.year = 2025 AND d.month = 1
+    GROUP BY d.date_id
+    ORDER BY d.date_id
+),
+CumulativeSales AS (
+    SELECT
+        date_id,
+        SUM(daily_sales) OVER (ORDER BY date_id ROWS UNBOUNDED PRECEDING) AS cumulative_gmv
+    FROM DailySales
+)
+SELECT MIN(date_id) AS first_date_exceeding_5000
+FROM CumulativeSales
+WHERE cumulative_gmv > 5000;
+2026-05-29 20:57:08.807 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'first_date_exceeding_5000': 20250101}]
+2026-05-30 00:00:56.569 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 00:00:56.694 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 00:01:01.450 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 00:01:01.665 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 00:01:35.913 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 00:01:36.021 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 00:01:40.357 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 00:01:40.576 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 00:04:30.173 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 00:04:30.282 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 00:04:34.734 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 00:04:35.003 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 00:04:53.667 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 00:04:53.778 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 00:05:09.001 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 00:05:09.210 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 00:06:37.564 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 00:06:37.673 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 00:06:42.199 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 00:06:42.413 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 00:07:31.209 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 00:07:31.320 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 00:07:35.724 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 00:07:35.971 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 00:07:52.486 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 00:07:52.595 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 00:07:57.132 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 00:07:57.344 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 00:07:59.098 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 00:07:59.207 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 00:08:09.547 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 00:08:09.757 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 00:08:15.266 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['销售额', '超过', '按日期顺序，计算 2025 年 1 月每天的累计销售额（从 1 月 1 日到当天的销售额总和），并找出累计销售额首次超过 5000 元的日期。', '累计', '计算', '找出', '顺序', '总和']
+2026-05-30 00:08:16.484 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['累计销售额', '销售额', '超过', '按日期顺序，计算 2025 年 1 月每天的累计销售额（从 1 月 1 日到当天的销售额总和），并找出累计销售额首次超过 5000 元的日期。', '累计', '2025年1月', '5000元', '计算', '找出', '顺序', '日期', '总和']
+2026-05-30 00:08:16.524 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_date.quarter.Q1']
+2026-05-30 00:08:16.669 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['累计销售额', '成交总额', '销售额', '超过', 'GMV', '按日期顺序，计算 2025 年 1 月每天的累计销售额（从 1 月 1 日到当天的销售额总和），并找出累计销售额首次超过 5000 元的日期。', '累计', '销售总额', '计算', '总收入', '找出', '顺序', '总和']
+2026-05-30 00:08:17.510 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['按日期顺序，计算 2025 年 1 月每天的累计销售额（从 1 月 1 日到当天的销售额总和），并找出累计销售额首次超过 5000 元的日期。', '总销售额', '总计', '顺序', '日期', '累计销售额', '5000元', '计算', '销售日期', '累计', '阈值', '累计销售金额', '找出', '总和', '日销售额', '销售额', '超过', '订单日期', '金额', '销售金额']
+2026-05-30 00:08:20.247 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-30 00:08:20.944 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_product.category', 'fact_order.date_id', 'dim_date.date_id', 'dim_date.year', 'dim_date.day', 'dim_date.month', 'dim_region.province', 'fact_order.order_id']
+2026-05-30 00:08:20.997 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['fact_order', 'dim_product', 'dim_date', 'dim_region'], 指标信息-['GMV', 'AOV']
+2026-05-30 00:08:21.804 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: ['GMV']
+2026-05-30 00:08:22.717 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_date']
+2026-05-30 00:08:22.728 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-30', 'weekday': 'Saturday', 'quarter': 'Q2'}
+2026-05-30 00:08:26.729 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: WITH DailySales AS (
+    SELECT
+        d.date_id,
+        SUM(f.order_amount) AS daily_sales
+    FROM fact_order f
+    JOIN dim_date d ON f.date_id = d.date_id
+    WHERE d.year = 2025 AND d.month = 1
+    GROUP BY d.date_id
+    ORDER BY d.date_id
+),
+CumulativeSales AS (
+    SELECT
+        date_id,
+        daily_sales,
+        SUM(daily_sales) OVER (ORDER BY date_id ROWS UNBOUNDED PRECEDING) AS cumulative_sales
+    FROM DailySales
+)
+SELECT
+    date_id,
+    daily_sales,
+    cumulative_sales
+FROM CumulativeSales
+WHERE cumulative_sales > 5000
+ORDER BY date_id
+LIMIT 1;
+2026-05-30 00:08:26.740 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: WITH DailySales AS (
+    SELECT
+        d.date_id,
+        SUM(f.order_amount) AS daily_sales
+    FROM fact_order f
+    JOIN dim_date d ON f.date_id = d.date_id
+    WHERE d.year = 2025 AND d.month = 1
+    GROUP BY d.date_id
+    ORDER BY d.date_id
+),
+CumulativeSales AS (
+    SELECT
+        date_id,
+        daily_sales,
+        SUM(daily_sales) OVER (ORDER BY date_id ROWS UNBOUNDED PRECEDING) AS cumulative_sales
+    FROM DailySales
+)
+SELECT
+    date_id,
+    daily_sales,
+    cumulative_sales
+FROM CumulativeSales
+WHERE cumulative_sales > 5000
+ORDER BY date_id
+LIMIT 1;
+2026-05-30 00:08:26.746 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'date_id': 20250101, 'daily_sales': 15998.0, 'cumulative_sales': 15998.0}]
+2026-05-30 00:14:08.730 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['第一季度', '排列', '降序', '大区', '统计 2025 年第一季度，每个大区、每个品类的购买客户数量（去重），并按客户数量降序排列。', '品类', '购买', '统计', '数量', '客户']
+2026-05-30 00:14:10.207 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['第一季度', '排列', '购买客户数量', '独立客户数', '客户数', '去重客户数', '降序', '大区', '活跃客户数', '用户数', '唯一客户数', '统计 2025 年第一季度，每个大区、每个品类的购买客户数量（去重），并按客户数量降序排列。', '买家数', '品类', '购买', '统计', '数量', '客户']
+2026-05-30 00:14:10.538 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['商品分类', '华中', '第一季度', '西北', '东北', '华东', '购买', '统计', '数量', '排列', '降序', '大区', '产品类别', '华北', '统计 2025 年第一季度，每个大区、每个品类的购买客户数量（去重），并按客户数量降序排列。', '西南', '客户', '华南', '品类']
+2026-05-30 00:14:10.617 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_region.region_name.华中', 'dim_region.region_name.华东', 'dim_region.region_name.华北', 'dim_region.region_name.西南', 'dim_region.region_name.华南']
+2026-05-30 00:14:11.863 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-30 00:14:12.068 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['购买时间', '区域', '商品分类', '购买客户数', '地区', '第一季度', 'Q1 2025', '客户ID', '季度', '去重客户数', '交易时间', '唯一客户数', '统计', '购买', '数量', '排列', '降序', '大区', '产品类别', '客户数量', '统计 2025 年第一季度，每个大区、每个品类的购买客户数量（去重），并按客户数量降序排列。', '客户', '时间范围', '订单日期', '2025年第一季度', '用户ID', '排序', '品类']
+2026-05-30 00:14:14.594 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.date_id', 'fact_order.order_quantity', 'dim_date.date_id', 'dim_region.region_name', 'fact_order.region_id', 'dim_region.region_id', 'dim_product.category', 'dim_product.product_name', 'fact_order.order_amount', 'dim_region.province', 'dim_region.country', 'dim_date.quarter', 'dim_customer.customer_id', 'fact_order.customer_id', 'dim_date.month', 'fact_order.order_id', 'dim_customer.customer_name', 'dim_customer.member_level', 'dim_customer.gender', 'dim_product.brand']
+2026-05-30 00:14:14.604 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['fact_order', 'dim_date', 'dim_region', 'dim_product', 'dim_customer'], 指标信息-['GMV', 'AOV']
+2026-05-30 00:14:15.344 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: []
+2026-05-30 00:14:16.512 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_date', 'dim_region', 'dim_product']
+2026-05-30 00:14:16.514 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-30', 'weekday': 'Saturday', 'quarter': 'Q2'}
+2026-05-30 00:14:20.215 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: SELECT
+    dr.region_name AS 大区,
+    dp.category AS 品类,
+    COUNT(DISTINCT fo.customer_id) AS 购买客户数量
+FROM fact_order fo
+JOIN dim_date dd ON fo.date_id = dd.date_id
+JOIN dim_region dr ON fo.region_id = dr.region_id
+JOIN dim_product dp ON fo.product_id = dp.product_id
+WHERE dd.quarter = 'Q1'
+  AND dd.date_id BETWEEN 20250101 AND 20250331
+GROUP BY dr.region_name, dp.category
+ORDER BY 购买客户数量 DESC;
+2026-05-30 00:14:20.220 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: SELECT
+    dr.region_name AS 大区,
+    dp.category AS 品类,
+    COUNT(DISTINCT fo.customer_id) AS 购买客户数量
+FROM fact_order fo
+JOIN dim_date dd ON fo.date_id = dd.date_id
+JOIN dim_region dr ON fo.region_id = dr.region_id
+JOIN dim_product dp ON fo.product_id = dp.product_id
+WHERE dd.quarter = 'Q1'
+  AND dd.date_id BETWEEN 20250101 AND 20250331
+GROUP BY dr.region_name, dp.category
+ORDER BY 购买客户数量 DESC;
+2026-05-30 00:14:20.224 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'大区': '华东', '品类': '手机数码', '购买客户数量': 6}, {'大区': '华东', '品类': '家用电器', '购买客户数量': 5}, {'大区': '华东', '品类': '服饰', '购买客户数量': 5}, {'大区': '华东', '品类': '鞋靴', '购买客户数量': 4}, {'大区': '华东', '品类': '食品饮料', '购买客户数量': 4}, {'大区': '华东', '品类': '休闲零食', '购买客户数量': 4}, {'大区': '华南', '品类': '手机数码', '购买客户数量': 4}, {'大区': '华南', '品类': '休闲零食', '购买客户数量': 4}, {'大区': '华南', '品类': '鞋靴', '购买客户数量': 3}, {'大区': '华南', '品类': '家用电器', '购买客户数量': 3}, {'大区': '西南', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '西南', '品类': '手机数码', '购买客户数量': 2}, {'大区': '华南', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '华南', '品类': '服饰', '购买客户数量': 2}, {'大区': '华北', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '华北', '品类': '鞋靴', '购买客户数量': 2}, {'大区': '华北', '品类': '服饰', '购买客户数量': 2}, {'大区': '华北', '品类': '手机数码', '购买客户数量': 2}, {'大区': '华北', '品类': '家用电器', '购买客户数量': 2}, {'大区': '华中', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '华中', '品类': '服饰', '购买客户数量': 2}, {'大区': '华中', '品类': '家用电器', '购买客户数量': 2}, {'大区': '华北', '品类': '休闲零食', '购买客户数量': 1}, {'大区': '华中', '品类': '鞋靴', '购买客户数量': 1}, {'大区': '华中', '品类': '手机数码', '购买客户数量': 1}, {'大区': '西南', '品类': '休闲零食', '购买客户数量': 1}, {'大区': '西南', '品类': '家用电器', '购买客户数量': 1}, {'大区': '西南', '品类': '服饰', '购买客户数量': 1}, {'大区': '西南', '品类': '鞋靴', '购买客户数量': 1}, {'大区': '华中', '品类': '休闲零食', '购买客户数量': 1}]
+2026-05-30 00:19:27.756 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 00:19:27.864 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 00:19:32.276 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 00:19:32.490 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 00:20:47.363 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 00:20:47.473 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 00:20:51.927 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 00:20:52.139 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 00:21:05.759 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['数量', '排列', '客户', '统计', '降序', '统计 2025 年第一季度，每个大区、每个品类的购买客户数量（去重），并按客户数量降序排列。', '大区', '购买', '品类', '第一季度']
+2026-05-30 00:21:07.288 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['数量', '用户数', '排列', '购买客户数量', '客户数', '客户', '去重客户数', '统计', '独立客户数', '下单客户数', '降序', '活跃客户数', '统计 2025 年第一季度，每个大区、每个品类的购买客户数量（去重），并按客户数量降序排列。', '大区', '购买', '买家数', '品类', '第一季度']
+2026-05-30 00:21:07.288 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['数量', '排列', '购买客户', '客户', '客户数量', '统计', '去重客户', '降序', '统计 2025 年第一季度，每个大区、每个品类的购买客户数量（去重），并按客户数量降序排列。', '大区', '购买', '品类', '第一季度']
+2026-05-30 00:21:07.340 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：[]
+2026-05-30 00:21:08.255 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['数量', '产品类别', '客户', '订单客户', '统计', '汇总', '大区', '排序', '年份', '购买', '季度', '地区', '购买客户数', '降序', '统计 2025 年第一季度，每个大区、每个品类的购买客户数量（去重），并按客户数量降序排列。', '商品分类', '唯一客户数', '第一季度', '客户ID', '排列', '客户数量', '区域', '去重客户数', '购买用户', '品类', '用户ID']
+2026-05-30 00:21:09.427 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-30 00:21:11.130 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.order_quantity', 'dim_product.category', 'dim_product.product_name', 'dim_customer.customer_name', 'fact_order.customer_id', 'dim_customer.customer_id', 'dim_customer.gender', 'fact_order.order_id', 'fact_order.order_amount', 'dim_region.region_name', 'fact_order.region_id', 'dim_region.region_id', 'dim_date.year', 'dim_date.month', 'dim_region.province', 'dim_date.quarter', 'dim_region.country', 'dim_customer.member_level', 'dim_product.brand']
+2026-05-30 00:21:11.153 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['fact_order', 'dim_product', 'dim_customer', 'dim_region', 'dim_date'], 指标信息-['GMV', 'AOV']
+2026-05-30 00:21:11.975 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: []
+2026-05-30 00:21:13.199 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_product', 'dim_region', 'dim_date']
+2026-05-30 00:21:13.209 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-30', 'weekday': 'Saturday', 'quarter': 'Q2'}
+2026-05-30 00:21:16.262 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: SELECT
+    r.region_name AS 大区,
+    p.category AS 品类,
+    COUNT(DISTINCT o.customer_id) AS 购买客户数量
+FROM fact_order o
+JOIN dim_region r ON o.region_id = r.region_id
+JOIN dim_product p ON o.product_id = p.product_id
+JOIN dim_date d ON o.date_id = d.date_id
+WHERE d.year = 2025 AND d.quarter = 'Q1'
+GROUP BY r.region_name, p.category
+ORDER BY 购买客户数量 DESC;
+2026-05-30 00:21:16.266 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: SELECT
+    r.region_name AS 大区,
+    p.category AS 品类,
+    COUNT(DISTINCT o.customer_id) AS 购买客户数量
+FROM fact_order o
+JOIN dim_region r ON o.region_id = r.region_id
+JOIN dim_product p ON o.product_id = p.product_id
+JOIN dim_date d ON o.date_id = d.date_id
+WHERE d.year = 2025 AND d.quarter = 'Q1'
+GROUP BY r.region_name, p.category
+ORDER BY 购买客户数量 DESC;
+2026-05-30 00:21:16.268 | INFO     | app.agent.nodes.execute_sql:execute_sql:24 - 执行SQL结果: [{'大区': '华东', '品类': '手机数码', '购买客户数量': 6}, {'大区': '华东', '品类': '家用电器', '购买客户数量': 5}, {'大区': '华东', '品类': '服饰', '购买客户数量': 5}, {'大区': '华东', '品类': '鞋靴', '购买客户数量': 4}, {'大区': '华东', '品类': '食品饮料', '购买客户数量': 4}, {'大区': '华东', '品类': '休闲零食', '购买客户数量': 4}, {'大区': '华南', '品类': '手机数码', '购买客户数量': 4}, {'大区': '华南', '品类': '休闲零食', '购买客户数量': 4}, {'大区': '华南', '品类': '鞋靴', '购买客户数量': 3}, {'大区': '华南', '品类': '家用电器', '购买客户数量': 3}, {'大区': '西南', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '西南', '品类': '手机数码', '购买客户数量': 2}, {'大区': '华南', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '华南', '品类': '服饰', '购买客户数量': 2}, {'大区': '华北', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '华北', '品类': '鞋靴', '购买客户数量': 2}, {'大区': '华北', '品类': '服饰', '购买客户数量': 2}, {'大区': '华北', '品类': '手机数码', '购买客户数量': 2}, {'大区': '华北', '品类': '家用电器', '购买客户数量': 2}, {'大区': '华中', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '华中', '品类': '服饰', '购买客户数量': 2}, {'大区': '华中', '品类': '家用电器', '购买客户数量': 2}, {'大区': '华北', '品类': '休闲零食', '购买客户数量': 1}, {'大区': '华中', '品类': '鞋靴', '购买客户数量': 1}, {'大区': '华中', '品类': '手机数码', '购买客户数量': 1}, {'大区': '西南', '品类': '休闲零食', '购买客户数量': 1}, {'大区': '西南', '品类': '家用电器', '购买客户数量': 1}, {'大区': '西南', '品类': '服饰', '购买客户数量': 1}, {'大区': '西南', '品类': '鞋靴', '购买客户数量': 1}, {'大区': '华中', '品类': '休闲零食', '购买客户数量': 1}]
+2026-05-30 00:22:28.045 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 00:22:28.153 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 00:22:32.586 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 00:22:32.829 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 00:22:45.356 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['数量', '第一季度', '大区', '统计 2025 年第一季度，每个大区、每个品类的购买客户数量（去重），并按客户数量降序排列。', '品类', '购买', '统计', '降序', '排列', '客户']
+2026-05-30 00:22:46.739 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['数量', '第一季度', '客户', '活跃客户数', '大区', '用户数', '统计 2025 年第一季度，每个大区、每个品类的购买客户数量（去重），并按客户数量降序排列。', '购买', '去重客户数', '独立客户数', '统计', '客户数', '降序', '买家数', '购买客户数量', '排列', '品类']
+2026-05-30 00:22:47.002 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['品类', '统计', '西南', '华中', '数量', '统计 2025 年第一季度，每个大区、每个品类的购买客户数量（去重），并按客户数量降序排列。', '产品类别', '商品分类', '第一季度', '大区', '购买', '降序', '排列', '西北', '东北', '客户', '华北', '华东', '华南']
+2026-05-30 00:22:47.075 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_region.region_name.西南', 'dim_region.region_name.华中', 'dim_region.region_name.华北', 'dim_region.region_name.华东', 'dim_region.region_name.华南']
+2026-05-30 00:22:47.515 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['客户数量', '统计', '季度', '唯一客户数', '用户ID', '购买用户', '年份', '数量', '统计 2025 年第一季度，每个大区、每个品类的购买客户数量（去重），并按客户数量降序排列。', '去重客户数', '产品类别', '排序', '商品分类', '第一季度', '大区', '购买', '购买客户数', '订单客户', '降序', '区域', '排列', '客户ID', '客户', '地区', '品类']
+2026-05-30 00:22:49.176 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-30 00:22:50.384 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.order_quantity', 'dim_customer.customer_name', 'dim_customer.member_level', 'fact_order.order_amount', 'dim_date.quarter', 'dim_date.month', 'dim_customer.customer_id', 'fact_order.customer_id', 'fact_order.order_id', 'dim_date.year', 'dim_product.category', 'dim_product.product_name', 'dim_region.region_name', 'fact_order.region_id', 'dim_region.region_id', 'dim_region.province', 'dim_customer.gender', 'dim_region.country', 'dim_product.brand']
+2026-05-30 00:22:50.407 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['fact_order', 'dim_customer', 'dim_date', 'dim_product', 'dim_region'], 指标信息-['GMV', 'AOV']
+2026-05-30 00:22:50.993 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: []
+2026-05-30 00:22:52.458 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_date', 'dim_product', 'dim_region']
+2026-05-30 00:22:52.468 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-30', 'weekday': 'Saturday', 'quarter': 'Q2'}
+2026-05-30 00:22:55.587 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: SELECT
+    r.region_name AS 大区,
+    p.category AS 品类,
+    COUNT(DISTINCT o.customer_id) AS 购买客户数量
+FROM fact_order o
+JOIN dim_region r ON o.region_id = r.region_id
+JOIN dim_product p ON o.product_id = p.product_id
+JOIN dim_date d ON o.date_id = d.date_id
+WHERE d.year = 2025 AND d.quarter = 'Q1'
+GROUP BY r.region_name, p.category
+ORDER BY 购买客户数量 DESC;
+2026-05-30 00:22:55.590 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: SELECT
+    r.region_name AS 大区,
+    p.category AS 品类,
+    COUNT(DISTINCT o.customer_id) AS 购买客户数量
+FROM fact_order o
+JOIN dim_region r ON o.region_id = r.region_id
+JOIN dim_product p ON o.product_id = p.product_id
+JOIN dim_date d ON o.date_id = d.date_id
+WHERE d.year = 2025 AND d.quarter = 'Q1'
+GROUP BY r.region_name, p.category
+ORDER BY 购买客户数量 DESC;
+2026-05-30 00:22:55.592 | INFO     | app.agent.nodes.execute_sql:execute_sql:24 - 执行SQL结果: [{'大区': '华东', '品类': '手机数码', '购买客户数量': 6}, {'大区': '华东', '品类': '家用电器', '购买客户数量': 5}, {'大区': '华东', '品类': '服饰', '购买客户数量': 5}, {'大区': '华东', '品类': '鞋靴', '购买客户数量': 4}, {'大区': '华东', '品类': '食品饮料', '购买客户数量': 4}, {'大区': '华东', '品类': '休闲零食', '购买客户数量': 4}, {'大区': '华南', '品类': '手机数码', '购买客户数量': 4}, {'大区': '华南', '品类': '休闲零食', '购买客户数量': 4}, {'大区': '华南', '品类': '鞋靴', '购买客户数量': 3}, {'大区': '华南', '品类': '家用电器', '购买客户数量': 3}, {'大区': '西南', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '西南', '品类': '手机数码', '购买客户数量': 2}, {'大区': '华南', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '华南', '品类': '服饰', '购买客户数量': 2}, {'大区': '华北', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '华北', '品类': '鞋靴', '购买客户数量': 2}, {'大区': '华北', '品类': '服饰', '购买客户数量': 2}, {'大区': '华北', '品类': '手机数码', '购买客户数量': 2}, {'大区': '华北', '品类': '家用电器', '购买客户数量': 2}, {'大区': '华中', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '华中', '品类': '服饰', '购买客户数量': 2}, {'大区': '华中', '品类': '家用电器', '购买客户数量': 2}, {'大区': '华北', '品类': '休闲零食', '购买客户数量': 1}, {'大区': '华中', '品类': '鞋靴', '购买客户数量': 1}, {'大区': '华中', '品类': '手机数码', '购买客户数量': 1}, {'大区': '西南', '品类': '休闲零食', '购买客户数量': 1}, {'大区': '西南', '品类': '家用电器', '购买客户数量': 1}, {'大区': '西南', '品类': '服饰', '购买客户数量': 1}, {'大区': '西南', '品类': '鞋靴', '购买客户数量': 1}, {'大区': '华中', '品类': '休闲零食', '购买客户数量': 1}]
+2026-05-30 00:22:55.593 | INFO     | app.services.query_service:query:149 - Captured result: [{'大区': '华东', '品类': '手机数码', '购买客户数量': 6}, {'大区': '华东', '品类': '家用电器', '购买客户数量': 5}, {'大区': '华东', '品类': '服饰', '购买客户数量': 5}, {'大区': '华东', '品类': '鞋靴', '购买客户数量': 4}, {'大区': '华东', '品类': '食品饮料', '购买客户数量': 4}, {'大区': '华东', '品类': '休闲零食', '购买客户数量': 4}, {'大区': '华南', '品类': '手机数码', '购买客户数量': 4}, {'大区': '华南', '品类': '休闲零食', '购买客户数量': 4}, {'大区': '华南', '品类': '鞋靴', '购买客户数量': 3}, {'大区': '华南', '品类': '家用电器', '购买客户数量': 3}, {'大区': '西南', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '西南', '品类': '手机数码', '购买客户数量': 2}, {'大区': '华南', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '华南', '品类': '服饰', '购买客户数量': 2}, {'大区': '华北', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '华北', '品类': '鞋靴', '购买客户数量': 2}, {'大区': '华北', '品类': '服饰', '购买客户数量': 2}, {'大区': '华北', '品类': '手机数码', '购买客户数量': 2}, {'大区': '华北', '品类': '家用电器', '购买客户数量': 2}, {'大区': '华中', '品类': '食品饮料', '购买客户数量': 2}, {'大区': '华中', '品类': '服饰', '购买客户数量': 2}, {'大区': '华中', '品类': '家用电器', '购买客户数量': 2}, {'大区': '华北', '品类': '休闲零食', '购买客户数量': 1}, {'大区': '华中', '品类': '鞋靴', '购买客户数量': 1}, {'大区': '华中', '品类': '手机数码', '购买客户数量': 1}, {'大区': '西南', '品类': '休闲零食', '购买客户数量': 1}, {'大区': '西南', '品类': '家用电器', '购买客户数量': 1}, {'大区': '西南', '品类': '服饰', '购买客户数量': 1}, {'大区': '西南', '品类': '鞋靴', '购买客户数量': 1}, {'大区': '华中', '品类': '休闲零食', '购买客户数量': 1}]
+2026-05-30 00:26:32.895 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['商品', '平均', '商品名称', '找出', 'ID', '列出', '订单', '超过', '金额', '找出 2025 年 1 月，订单金额超过该商品当月平均订单金额 2 倍以上的订单，列出订单 ID、商品名称、订单金额和该商品当月平均金额。']
+2026-05-30 00:26:34.217 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['商品', '平均', '商品名称', '找出', 'ID', '列出', '订单', '超过', '金额', '找出 2025 年 1 月，订单金额超过该商品当月平均订单金额 2 倍以上的订单，列出订单 ID、商品名称、订单金额和该商品当月平均金额。', '平均订单金额', '订单金额', '订单ID']
+2026-05-30 00:26:34.246 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_date.quarter.Q1']
+2026-05-30 00:26:34.625 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['商品', '平均', '商品名称', '找出', 'ID', '销售额', '列出', '客单价', 'AOV', '订单', '超过', '金额', '找出 2025 年 1 月，订单金额超过该商品当月平均订单金额 2 倍以上的订单，列出订单 ID、商品名称、订单金额和该商品当月平均金额。', '平均订单金额', '订单金额', '商品平均销售额', '成交金额']
+2026-05-30 00:26:35.064 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['销售额', '订单', '当月平均金额', '订单日期', '年份', '列出', '超过', '平均订单金额', '订单金额', '订单ID', '倍数', '商品', '找出', 'ID', '2025年1月', '交易金额', '金额', '月份', '平均', '商品名称', '平均值', '找出 2025 年 1 月，订单金额超过该商品当月平均订单金额 2 倍以上的订单，列出订单 ID、商品名称、订单金额和该商品当月平均金额。', '产品名称']
+2026-05-30 00:26:37.028 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['AOV', 'GMV']
+2026-05-30 00:26:38.167 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'fact_order.order_id', 'fact_order.date_id', 'dim_date.date_id', 'dim_date.year', 'dim_date.month', 'dim_product.category', 'dim_region.province', 'dim_customer.customer_id', 'fact_order.customer_id', 'fact_order.product_id', 'dim_product.product_id', 'dim_product.product_name', 'dim_product.brand']
+2026-05-30 00:26:38.180 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['fact_order', 'dim_date', 'dim_product', 'dim_region', 'dim_customer'], 指标信息-['AOV', 'GMV']
+2026-05-30 00:26:39.091 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: ['AOV', 'GMV']
+2026-05-30 00:26:39.910 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['fact_order', 'dim_date', 'dim_product']
+2026-05-30 00:26:39.912 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-30', 'weekday': 'Saturday', 'quarter': 'Q2'}
+2026-05-30 00:26:46.334 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: WITH MonthlyProductAvg AS (
+    SELECT
+        fo.product_id,
+        AVG(fo.order_amount) AS monthly_avg_amount
+    FROM fact_order fo
+    JOIN dim_date dd ON fo.date_id = dd.date_id
+    WHERE dd.year = 2025 AND dd.month = 1
+    GROUP BY fo.product_id
+)
+SELECT
+    fo.order_id,
+    dp.product_name,
+    fo.order_amount,
+    mpa.monthly_avg_amount
+FROM fact_order fo
+JOIN dim_date dd ON fo.date_id = dd.date_id
+JOIN dim_product dp ON fo.product_id = dp.product_id
+JOIN MonthlyProductAvg mpa ON fo.product_id = mpa.product_id
+WHERE dd.year = 2025 AND dd.month = 1
+  AND fo.order_amount > 2 * mpa.monthly_avg_amount;
+2026-05-30 00:26:46.337 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: WITH MonthlyProductAvg AS (
+    SELECT
+        fo.product_id,
+        AVG(fo.order_amount) AS monthly_avg_amount
+    FROM fact_order fo
+    JOIN dim_date dd ON fo.date_id = dd.date_id
+    WHERE dd.year = 2025 AND dd.month = 1
+    GROUP BY fo.product_id
+)
+SELECT
+    fo.order_id,
+    dp.product_name,
+    fo.order_amount,
+    mpa.monthly_avg_amount
+FROM fact_order fo
+JOIN dim_date dd ON fo.date_id = dd.date_id
+JOIN dim_product dp ON fo.product_id = dp.product_id
+JOIN MonthlyProductAvg mpa ON fo.product_id = mpa.product_id
+WHERE dd.year = 2025 AND dd.month = 1
+  AND fo.order_amount > 2 * mpa.monthly_avg_amount;
+2026-05-30 00:26:46.339 | INFO     | app.agent.nodes.execute_sql:execute_sql:24 - 执行SQL结果: []
+2026-05-30 00:26:46.340 | INFO     | app.services.query_service:query:149 - Captured result: []
+2026-05-30 00:29:15.838 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 00:29:15.948 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 00:29:20.766 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 00:29:20.987 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 00:29:21.556 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['金额', '平均', '列出', '订单', '商品', '超过', '商品名称', '找出 2025 年 1 月，订单金额超过该商品当月平均订单金额 2 倍以上的订单，列出订单 ID、商品名称、订单金额和该商品当月平均金额。', 'ID', '找出']
+2026-05-30 00:29:22.710 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['金额', '平均', '平均订单金额', '列出', '订单', '商品', '超过', '订单金额', '商品名称', '订单ID', '找出 2025 年 1 月，订单金额超过该商品当月平均订单金额 2 倍以上的订单，列出订单 ID、商品名称、订单金额和该商品当月平均金额。', 'ID', '找出']
+2026-05-30 00:29:22.738 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_date.quarter.Q1']
+2026-05-30 00:29:22.901 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['金额', '平均', '平均订单金额', '列出', '销售额', '订单', '商品平均订单金额', '商品', '超过', '订单金额', '商品名称', '找出 2025 年 1 月，订单金额超过该商品当月平均订单金额 2 倍以上的订单，列出订单 ID、商品名称、订单金额和该商品当月平均金额。', 'ID', '客单价', '成交金额', 'AOV', '找出']
+2026-05-30 00:29:23.834 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['平均', '平均值', '商品', '当月平均金额', '产品名称', '订单金额', '商品名称', '订单ID', '2025年1月', '找出', '金额', '倍数', '平均订单金额', '列出', '订单日期', '超过', '销售金额', '月份', '订单', '交易金额', '找出 2025 年 1 月，订单金额超过该商品当月平均订单金额 2 倍以上的订单，列出订单 ID、商品名称、订单金额和该商品当月平均金额。', 'ID', '年份']
+2026-05-30 00:29:26.277 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-30 00:29:27.551 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['dim_product.category', 'dim_product.product_name', 'dim_product.brand', 'fact_order.order_amount', 'fact_order.order_quantity', 'fact_order.order_id', 'dim_customer.customer_id', 'fact_order.customer_id', 'fact_order.product_id', 'dim_product.product_id', 'dim_region.province', 'fact_order.date_id', 'dim_date.date_id', 'dim_date.month', 'dim_date.year']
+2026-05-30 00:29:27.581 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['dim_product', 'fact_order', 'dim_customer', 'dim_region', 'dim_date'], 指标信息-['GMV', 'AOV']
+2026-05-30 00:29:28.403 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: ['AOV']
+2026-05-30 00:29:29.725 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['dim_product', 'fact_order', 'dim_date']
+2026-05-30 00:29:29.734 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-30', 'weekday': 'Saturday', 'quarter': 'Q2'}
+2026-05-30 00:29:35.196 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: WITH MonthlyAvg AS (
+    SELECT
+        fo.product_id,
+        AVG(fo.order_amount) AS avg_order_amount
+    FROM fact_order fo
+    JOIN dim_date dd ON fo.date_id = dd.date_id
+    WHERE dd.year = 2025 AND dd.month = 1
+    GROUP BY fo.product_id
+)
+SELECT
+    fo.order_id,
+    dp.product_name,
+    fo.order_amount,
+    ma.avg_order_amount
+FROM fact_order fo
+JOIN dim_product dp ON fo.product_id = dp.product_id
+JOIN dim_date dd ON fo.date_id = dd.date_id
+JOIN MonthlyAvg ma ON fo.product_id = ma.product_id
+WHERE dd.year = 2025 AND dd.month = 1
+  AND fo.order_amount > 2 * ma.avg_order_amount;
+2026-05-30 00:29:35.199 | INFO     | app.agent.nodes.validate_sql:validate_sql:19 - SQL验证成功: WITH MonthlyAvg AS (
+    SELECT
+        fo.product_id,
+        AVG(fo.order_amount) AS avg_order_amount
+    FROM fact_order fo
+    JOIN dim_date dd ON fo.date_id = dd.date_id
+    WHERE dd.year = 2025 AND dd.month = 1
+    GROUP BY fo.product_id
+)
+SELECT
+    fo.order_id,
+    dp.product_name,
+    fo.order_amount,
+    ma.avg_order_amount
+FROM fact_order fo
+JOIN dim_product dp ON fo.product_id = dp.product_id
+JOIN dim_date dd ON fo.date_id = dd.date_id
+JOIN MonthlyAvg ma ON fo.product_id = ma.product_id
+WHERE dd.year = 2025 AND dd.month = 1
+  AND fo.order_amount > 2 * ma.avg_order_amount;
+2026-05-30 00:29:35.202 | INFO     | app.agent.nodes.execute_sql:execute_sql:24 - 执行SQL结果: []
+2026-05-30 00:29:35.202 | INFO     | app.services.query_service:query:149 - Captured result: []
+2026-05-30 19:47:25.230 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['列出', '客户', '数码', '商品', '会员', '品类', '名称', '购买', '家用电器', '手机', '找出', '找出既购买过手机数码品类商品,又购买过家用电器品类商品的客户，列出他们的客户名称和会员等级']
+2026-05-30 19:47:25.334 | ERROR    | app.agent.nodes.recall_value:recall_value:52 - 召回字段取值失败: Error code: 403 - {'error': {'message': 'The free tier of the model has been exhausted. If you wish to continue access the model on a paid basis, please disable the "use free tier only" mode in the management console.', 'type': 'AllocationQuota.FreeTierOnly', 'param': None, 'code': 'AllocationQuota.FreeTierOnly'}, 'id': 'chatcmpl-584fe6b7-a4cf-9aa5-9454-0d2e9ec9e98a', 'request_id': '584fe6b7-a4cf-9aa5-9454-0d2e9ec9e98a'}
+2026-05-30 19:56:13.034 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 19:56:13.142 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 19:56:18.880 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 19:56:19.261 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 19:56:36.672 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 19:56:36.781 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 19:56:41.162 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 19:56:41.373 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 19:57:47.834 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['列出', '会员', '找出既购买过手机数码品类商品,又购买过家用电器品类商品的客户，列出他们的客户名称和会员等级', '家用电器', '品类', '名称', '商品', '数码', '找出', '购买', '客户', '手机']
+2026-05-30 19:57:47.976 | ERROR    | app.agent.nodes.recall_value:recall_value:52 - 召回字段取值失败: Error code: 403 - {'error': {'message': 'The free tier of the model has been exhausted. If you wish to continue access the model on a paid basis, please disable the "use free tier only" mode in the management console.', 'type': 'AllocationQuota.FreeTierOnly', 'param': None, 'code': 'AllocationQuota.FreeTierOnly'}, 'id': 'chatcmpl-282ac9cd-22d9-95f5-8570-dc2f4acaf93d', 'request_id': '282ac9cd-22d9-95f5-8570-dc2f4acaf93d'}
+2026-05-30 20:01:21.833 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 20:01:21.944 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 20:01:26.354 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 20:01:26.564 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 20:01:27.225 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 20:01:27.334 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 20:01:43.141 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 20:01:43.351 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 20:01:48.490 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['找出既购买过手机数码品类商品,又购买过家用电器品类商品的客户，列出他们的客户名称和会员等级', '数码', '找出', '品类', '家用电器', '客户', '会员', '名称', '购买', '列出', '商品', '手机']
+2026-05-30 20:01:49.094 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['找出既购买过手机数码品类商品,又购买过家用电器品类商品的客户，列出他们的客户名称和会员等级', '数码', '找出', '客户名称', '品类', '家用电器', '会员等级', '客户', '会员', '名称', '购买', '列出', '商品', '手机']
+2026-05-30 20:01:49.555 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['找出既购买过手机数码品类商品,又购买过家用电器品类商品的客户，列出他们的客户名称和会员等级', '数码', '找出', '客户名称', '品类', '家用电器', '会员等级', '客户', '会员', '名称', '手机数码', '购买', '列出', '商品', '手机']
+2026-05-30 20:01:49.561 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['找出既购买过手机数码品类商品,又购买过家用电器品类商品的客户，列出他们的客户名称和会员等级', '数码', '找出', '客户名称', '品类', '家用电器', '会员等级', '客户', '会员', '名称', '手机数码', '购买', '列出', '商品', '手机']
+2026-05-30 20:01:49.621 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_product.category.家用电器', 'dim_product.category.手机数码']
+2026-05-30 20:01:51.338 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：[]
+2026-05-30 20:01:51.728 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['dim_region.province', 'dim_customer.customer_name', 'fact_order.customer_id', 'dim_customer.customer_id', 'dim_product.category', 'dim_product.brand', 'dim_customer.member_level', 'dim_customer.gender', 'dim_product.product_name', 'fact_order.order_quantity', 'fact_order.date_id', 'dim_date.date_id']
+2026-05-30 20:01:51.751 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['dim_region', 'dim_customer', 'fact_order', 'dim_product', 'dim_date'], 指标信息-[]
+2026-05-30 20:01:52.514 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: []
+2026-05-30 20:01:53.726 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['dim_customer', 'fact_order', 'dim_product']
+2026-05-30 20:01:53.735 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-30', 'weekday': 'Saturday', 'quarter': 'Q2'}
+2026-05-30 20:02:00.142 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: ```sql
+WITH CustomerPurchases AS (
+    SELECT 
+        fo.customer_id,
+        dp.category
+    FROM 
+        fact_order fo
+    JOIN 
+        dim_product dp ON fo.product_id = dp.product_id
+    WHERE 
+        dp.category IN ('手机数码', '家用电器')
+),
+CustomerCategoryCounts AS (
+    SELECT 
+        cp.customer_id,
+        COUNT(DISTINCT CASE WHEN cp.category = '手机数码' THEN 1 END) AS mobile_count,
+        COUNT(DISTINCT CASE WHEN cp.category = '家用电器' THEN 1 END) AS appliance_count
+    FROM 
+        CustomerPurchases cp
+    GROUP BY 
+        cp.customer_id
+    HAVING 
+        mobile_count > 0 AND appliance_count > 0
+)
+SELECT 
+    dc.customer_name,
+    dc.member_level
+FROM 
+    dim_customer dc
+JOIN 
+    CustomerCategoryCounts ccc ON dc.customer_id = ccc.customer_id;
+```
+2026-05-30 20:02:00.144 | ERROR    | app.agent.nodes.validate_sql:validate_sql:25 - SQL验证失败: ```sql
+WITH CustomerPurchases AS (
+    SELECT 
+        fo.customer_id,
+        dp.category
+    FROM 
+        fact_order fo
+    JOIN 
+        dim_product dp ON fo.product_id = dp.product_id
+    WHERE 
+        dp.category IN ('手机数码', '家用电器')
+),
+CustomerCategoryCounts AS (
+    SELECT 
+        cp.customer_id,
+        COUNT(DISTINCT CASE WHEN cp.category = '手机数码' THEN 1 END) AS mobile_count,
+        COUNT(DISTINCT CASE WHEN cp.category = '家用电器' THEN 1 END) AS appliance_count
+    FROM 
+        CustomerPurchases cp
+    GROUP BY 
+        cp.customer_id
+    HAVING 
+        mobile_count > 0 AND appliance_count > 0
+)
+SELECT 
+    dc.customer_name,
+    dc.member_level
+FROM 
+    dim_customer dc
+JOIN 
+    CustomerCategoryCounts ccc ON dc.customer_id = ccc.customer_id;
+```
+2026-05-30 20:02:06.043 | INFO     | app.agent.nodes.correct_sql:correct_sql:44 - 校正后的SQL: ```sql
+WITH CustomerPurchases AS (
+    SELECT 
+        fo.customer_id,
+        dp.category
+    FROM 
+        fact_order fo
+    JOIN 
+        dim_product dp ON fo.product_id = dp.product_id
+    WHERE 
+        dp.category IN ('手机数码', '家用电器')
+),
+CustomerCategoryCounts AS (
+    SELECT 
+        cp.customer_id,
+        COUNT(DISTINCT CASE WHEN cp.category = '手机数码' THEN 1 END) AS mobile_count,
+        COUNT(DISTINCT CASE WHEN cp.category = '家用电器' THEN 1 END) AS appliance_count
+    FROM 
+        CustomerPurchases cp
+    GROUP BY 
+        cp.customer_id
+    HAVING 
+        mobile_count > 0 AND appliance_count > 0
+)
+SELECT 
+    dc.customer_name,
+    dc.member_level
+FROM 
+    dim_customer dc
+JOIN 
+    CustomerCategoryCounts ccc ON dc.customer_id = ccc.customer_id;
+```
+2026-05-30 20:02:06.046 | ERROR    | app.agent.nodes.execute_sql:execute_sql:30 - 执行SQL失败:(asyncmy.errors.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '```sql\nWITH CustomerPurchases AS (\n    SELECT \n        fo.customer_id,\n        d' at line 1")
+[SQL: ```sql
+WITH CustomerPurchases AS (
+    SELECT 
+        fo.customer_id,
+        dp.category
+    FROM 
+        fact_order fo
+    JOIN 
+        dim_product dp ON fo.product_id = dp.product_id
+    WHERE 
+        dp.category IN ('手机数码', '家用电器')
+),
+CustomerCategoryCounts AS (
+    SELECT 
+        cp.customer_id,
+        COUNT(DISTINCT CASE WHEN cp.category = '手机数码' THEN 1 END) AS mobile_count,
+        COUNT(DISTINCT CASE WHEN cp.category = '家用电器' THEN 1 END) AS appliance_count
+    FROM 
+        CustomerPurchases cp
+    GROUP BY 
+        cp.customer_id
+    HAVING 
+        mobile_count > 0 AND appliance_count > 0
+)
+SELECT 
+    dc.customer_name,
+    dc.member_level
+FROM 
+    dim_customer dc
+JOIN 
+    CustomerCategoryCounts ccc ON dc.customer_id = ccc.customer_id;
+```]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-05-30 20:05:20.810 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 20:05:20.920 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 20:05:25.338 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 20:05:25.548 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 20:05:31.572 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 20:05:31.681 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 20:05:36.224 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 20:05:36.437 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 20:05:36.552 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 20:05:36.661 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 20:05:41.222 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 20:05:41.433 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 20:06:22.995 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 20:06:23.103 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 20:07:27.393 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 20:07:27.626 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 20:07:44.607 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['数码', '家用电器', '品类', '找出', '找出既购买过手机数码品类商品,又购买过家用电器品类商品的客户，列出他们的客户名称和会员等级', '列出', '商品', '购买', '会员', '手机', '客户', '名称']
+2026-05-30 20:07:45.327 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['客户名称', '数码', '家用电器', '品类', '找出', '找出既购买过手机数码品类商品,又购买过家用电器品类商品的客户，列出他们的客户名称和会员等级', '列出', '商品', '手机数码', '会员等级', '购买', '会员', '手机', '客户', '名称']
+2026-05-30 20:07:45.361 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_product.category.手机数码', 'dim_product.category.家用电器']
+2026-05-30 20:07:45.627 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['客户名称', '数码', '家用电器', '品类', '找出', '找出既购买过手机数码品类商品,又购买过家用电器品类商品的客户，列出他们的客户名称和会员等级', '列出', '商品', '会员等级', '购买', '会员', '手机', '客户', '名称']
+2026-05-30 20:07:46.254 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['客户名称', '数码', '商品类别', '家用电器', '品类', '找出', '找出既购买过手机数码品类商品,又购买过家用电器品类商品的客户，列出他们的客户名称和会员等级', '列出', '商品', '购买记录', '手机数码', '会员等级', '购买', '会员', '手机', '客户', '名称']
+2026-05-30 20:07:47.424 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：[]
+2026-05-30 20:07:48.262 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['dim_customer.customer_name', 'fact_order.customer_id', 'dim_customer.customer_id', 'dim_product.category', 'dim_product.product_name', 'dim_product.brand', 'dim_region.province', 'fact_order.order_quantity', 'fact_order.order_amount', 'dim_customer.member_level', 'fact_order.date_id', 'dim_date.date_id', 'dim_customer.gender']
+2026-05-30 20:07:48.286 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['dim_customer', 'fact_order', 'dim_product', 'dim_region', 'dim_date'], 指标信息-[]
+2026-05-30 20:07:48.927 | INFO     | app.agent.nodes.filter_metric:filter_metric:39 - 过滤后的指标: []
+2026-05-30 20:07:50.158 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['dim_customer', 'fact_order', 'dim_product']
+2026-05-30 20:07:50.169 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-30', 'weekday': 'Saturday', 'quarter': 'Q2'}
+2026-05-30 20:07:53.908 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: ```sql
+WITH CustomerPurchases AS (
+    SELECT 
+        fo.customer_id,
+        dp.category
+    FROM fact_order fo
+    JOIN dim_product dp ON fo.product_id = dp.product_id
+),
+CustomersWithBothCategories AS (
+    SELECT 
+        cp1.customer_id
+    FROM CustomerPurchases cp1
+    JOIN CustomerPurchases cp2 ON cp1.customer_id = cp2.customer_id
+    WHERE cp1.category = '手机数码' AND cp2.category = '家用电器'
+)
+SELECT 
+    dc.customer_name,
+    dc.member_level
+FROM dim_customer dc
+JOIN CustomersWithBothCategories cbc ON dc.customer_id = cbc.customer_id;
+```
+2026-05-30 20:07:53.910 | ERROR    | app.agent.nodes.validate_sql:validate_sql:25 - SQL验证失败: ```sql
+WITH CustomerPurchases AS (
+    SELECT 
+        fo.customer_id,
+        dp.category
+    FROM fact_order fo
+    JOIN dim_product dp ON fo.product_id = dp.product_id
+),
+CustomersWithBothCategories AS (
+    SELECT 
+        cp1.customer_id
+    FROM CustomerPurchases cp1
+    JOIN CustomerPurchases cp2 ON cp1.customer_id = cp2.customer_id
+    WHERE cp1.category = '手机数码' AND cp2.category = '家用电器'
+)
+SELECT 
+    dc.customer_name,
+    dc.member_level
+FROM dim_customer dc
+JOIN CustomersWithBothCategories cbc ON dc.customer_id = cbc.customer_id;
+```
+2026-05-30 20:07:58.278 | INFO     | app.agent.nodes.correct_sql:correct_sql:44 - 校正后的SQL: ```sql
+WITH CustomerPurchases AS (
+    SELECT 
+        fo.customer_id,
+        dp.category
+    FROM fact_order fo
+    JOIN dim_product dp ON fo.product_id = dp.product_id
+),
+CustomersWithBothCategories AS (
+    SELECT 
+        cp1.customer_id
+    FROM CustomerPurchases cp1
+    JOIN CustomerPurchases cp2 ON cp1.customer_id = cp2.customer_id
+    WHERE cp1.category = '手机数码' AND cp2.category = '家用电器'
+)
+SELECT 
+    dc.customer_name,
+    dc.member_level
+FROM dim_customer dc
+JOIN CustomersWithBothCategories cbc ON dc.customer_id = cbc.customer_id;
+```
+2026-05-30 20:07:58.279 | INFO     | app.agent.nodes.execute_sql:execute_sql:26 - 原始SQL: ```sql
+WITH CustomerPurchases AS (
+    SELECT 
+        fo.customer_id,
+        dp.category
+    FROM fact_order fo
+    JOIN dim_product dp ON fo.product_id = dp.product_id
+),
+CustomersWithBothCategorie...
+2026-05-30 20:07:58.279 | INFO     | app.agent.nodes.execute_sql:execute_sql:27 - 清洗后SQL: WITH CustomerPurchases AS (
+SELECT
+fo.customer_id,
+dp.category
+FROM fact_order fo
+JOIN dim_product dp ON fo.product_id = dp.product_id
+),
+CustomersWithBothCategories AS (
+SELECT
+cp1.customer_id
+FROM CustomerPurchases cp1
+JOIN CustomerPurchases cp2 ON cp1.customer_id = cp2.customer_id
+WHERE cp1.category = '手机数码' AND cp2.category = '家用电器'
+)
+SELECT
+dc.customer_name,
+dc.member_level
+FROM dim_customer dc
+JOIN CustomersWithBothCategories cbc ON dc.customer_id = cbc.customer_id;
+2026-05-30 20:07:58.284 | INFO     | app.agent.nodes.execute_sql:execute_sql:52 - 执行SQL成功，返回 16 行数据
+2026-05-30 20:07:58.284 | INFO     | app.services.query_service:query:149 - Captured result: [{'customer_name': '林峰', 'member_level': '青铜'}, {'customer_name': '何娜', 'member_level': '白银'}, {'customer_name': '何娜', 'member_level': '白银'}, {'customer_name': '孙丽', 'member_level': '黄金'}, {'customer_name': '孙丽', 'member_level': '黄金'}, {'customer_name': '徐浩', 'member_level': '白银'}, {'customer_name': '徐浩', 'member_level': '白银'}, {'customer_name': '陈静', 'member_level': '铂金'}, {'customer_name': '高梅', 'member_level': '铂金'}, {'customer_name': '高梅', 'member_level': '铂金'}, {'customer_name': '高梅', 'member_level': '铂金'}, {'customer_name': '陈静', 'member_level': '铂金'}, {'customer_name': '张敏', 'member_level': '黄金'}, {'customer_name': '张敏', 'member_level': '黄金'}, {'customer_name': '胡杰', 'member_level': '黄金'}, {'customer_name': '胡杰', 'member_level': '黄金'}]
+2026-05-30 20:25:49.976 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 20:25:50.083 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 20:28:03.371 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 20:28:03.582 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 20:30:17.379 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 20:30:17.486 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 20:32:23.801 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 20:32:24.016 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 20:38:36.450 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['??????2025?1??????']
+2026-05-30 20:38:36.948 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['??????2025?1??????']
+2026-05-30 20:38:36.954 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_date.quarter.Q1']
+2026-05-30 20:38:37.004 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['??????2025?1??????']
+2026-05-30 20:38:37.086 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['2025', '1', '??????2025?1??????']
+2026-05-30 20:38:37.144 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：[]
+2026-05-30 20:38:37.398 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：[]
+2026-05-30 20:38:37.418 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:85 - 合并召回信息: 表信息-['dim_date'], 指标信息-[]
+2026-05-30 20:38:38.221 | INFO     | app.agent.nodes.filter_metric:filter_metric:40 - 过滤后的指标: []
+2026-05-30 20:38:38.542 | INFO     | app.agent.nodes.filter_table:filter_table:44 - 过滤后的表信息: ['dim_date']
+2026-05-30 20:38:38.555 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:29 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-30', 'weekday': 'Saturday', 'quarter': 'Q2'}
+2026-05-30 20:38:40.516 | INFO     | app.agent.nodes.generate_sql:generate_sql:40 - 生成的SQL: ```sql
+SELECT date_id, quarter
+FROM dim_date
+WHERE date_id BETWEEN 20250101 AND 20250331
+AND quarter = 'Q1';
+```
+2026-05-30 20:38:40.518 | ERROR    | app.agent.nodes.validate_sql:validate_sql:25 - SQL验证失败: ```sql
+SELECT date_id, quarter
+FROM dim_date
+WHERE date_id BETWEEN 20250101 AND 20250331
+AND quarter = 'Q1';
+```
+2026-05-30 20:38:41.835 | INFO     | app.agent.nodes.correct_sql:correct_sql:44 - 校正后的SQL: ```sql
+SELECT date_id, quarter
+FROM dim_date
+WHERE date_id BETWEEN 20250101 AND 20250331
+AND quarter = 'Q1';
+```
+2026-05-30 20:38:41.836 | INFO     | app.agent.nodes.execute_sql:execute_sql:26 - 原始SQL: ```sql
+SELECT date_id, quarter
+FROM dim_date
+WHERE date_id BETWEEN 20250101 AND 20250331
+AND quarter = 'Q1';
+```...
+2026-05-30 20:38:41.836 | INFO     | app.agent.nodes.execute_sql:execute_sql:27 - 清洗后SQL: SELECT date_id, quarter
+FROM dim_date
+WHERE date_id BETWEEN 20250101 AND 20250331
+AND quarter = 'Q1';
+2026-05-30 20:38:41.840 | INFO     | app.agent.nodes.execute_sql:execute_sql:52 - 执行SQL成功，返回 90 行数据
+2026-05-30 20:38:41.841 | INFO     | app.services.query_service:query:149 - Captured result: [{'date_id': 20250101, 'quarter': 'Q1'}, {'date_id': 20250102, 'quarter': 'Q1'}, {'date_id': 20250103, 'quarter': 'Q1'}, {'date_id': 20250104, 'quarter': 'Q1'}, {'date_id': 20250105, 'quarter': 'Q1'}, {'date_id': 20250106, 'quarter': 'Q1'}, {'date_id': 20250107, 'quarter': 'Q1'}, {'date_id': 20250108, 'quarter': 'Q1'}, {'date_id': 20250109, 'quarter': 'Q1'}, {'date_id': 20250110, 'quarter': 'Q1'}, {'date_id': 20250111, 'quarter': 'Q1'}, {'date_id': 20250112, 'quarter': 'Q1'}, {'date_id': 20250113, 'quarter': 'Q1'}, {'date_id': 20250114, 'quarter': 'Q1'}, {'date_id': 20250115, 'quarter': 'Q1'}, {'date_id': 20250116, 'quarter': 'Q1'}, {'date_id': 20250117, 'quarter': 'Q1'}, {'date_id': 20250118, 'quarter': 'Q1'}, {'date_id': 20250119, 'quarter': 'Q1'}, {'date_id': 20250120, 'quarter': 'Q1'}, {'date_id': 20250121, 'quarter': 'Q1'}, {'date_id': 20250122, 'quarter': 'Q1'}, {'date_id': 20250123, 'quarter': 'Q1'}, {'date_id': 20250124, 'quarter': 'Q1'}, {'date_id': 20250125, 'quarter': 'Q1'}, {'date_id': 20250126, 'quarter': 'Q1'}, {'date_id': 20250127, 'quarter': 'Q1'}, {'date_id': 20250128, 'quarter': 'Q1'}, {'date_id': 20250129, 'quarter': 'Q1'}, {'date_id': 20250130, 'quarter': 'Q1'}, {'date_id': 20250131, 'quarter': 'Q1'}, {'date_id': 20250201, 'quarter': 'Q1'}, {'date_id': 20250202, 'quarter': 'Q1'}, {'date_id': 20250203, 'quarter': 'Q1'}, {'date_id': 20250204, 'quarter': 'Q1'}, {'date_id': 20250205, 'quarter': 'Q1'}, {'date_id': 20250206, 'quarter': 'Q1'}, {'date_id': 20250207, 'quarter': 'Q1'}, {'date_id': 20250208, 'quarter': 'Q1'}, {'date_id': 20250209, 'quarter': 'Q1'}, {'date_id': 20250210, 'quarter': 'Q1'}, {'date_id': 20250211, 'quarter': 'Q1'}, {'date_id': 20250212, 'quarter': 'Q1'}, {'date_id': 20250213, 'quarter': 'Q1'}, {'date_id': 20250214, 'quarter': 'Q1'}, {'date_id': 20250215, 'quarter': 'Q1'}, {'date_id': 20250216, 'quarter': 'Q1'}, {'date_id': 20250217, 'quarter': 'Q1'}, {'date_id': 20250218, 'quarter': 'Q1'}, {'date_id': 20250219, 'quarter': 'Q1'}, {'date_id': 20250220, 'quarter': 'Q1'}, {'date_id': 20250221, 'quarter': 'Q1'}, {'date_id': 20250222, 'quarter': 'Q1'}, {'date_id': 20250223, 'quarter': 'Q1'}, {'date_id': 20250224, 'quarter': 'Q1'}, {'date_id': 20250225, 'quarter': 'Q1'}, {'date_id': 20250226, 'quarter': 'Q1'}, {'date_id': 20250227, 'quarter': 'Q1'}, {'date_id': 20250228, 'quarter': 'Q1'}, {'date_id': 20250301, 'quarter': 'Q1'}, {'date_id': 20250302, 'quarter': 'Q1'}, {'date_id': 20250303, 'quarter': 'Q1'}, {'date_id': 20250304, 'quarter': 'Q1'}, {'date_id': 20250305, 'quarter': 'Q1'}, {'date_id': 20250306, 'quarter': 'Q1'}, {'date_id': 20250307, 'quarter': 'Q1'}, {'date_id': 20250308, 'quarter': 'Q1'}, {'date_id': 20250309, 'quarter': 'Q1'}, {'date_id': 20250310, 'quarter': 'Q1'}, {'date_id': 20250311, 'quarter': 'Q1'}, {'date_id': 20250312, 'quarter': 'Q1'}, {'date_id': 20250313, 'quarter': 'Q1'}, {'date_id': 20250314, 'quarter': 'Q1'}, {'date_id': 20250315, 'quarter': 'Q1'}, {'date_id': 20250316, 'quarter': 'Q1'}, {'date_id': 20250317, 'quarter': 'Q1'}, {'date_id': 20250318, 'quarter': 'Q1'}, {'date_id': 20250319, 'quarter': 'Q1'}, {'date_id': 20250320, 'quarter': 'Q1'}, {'date_id': 20250321, 'quarter': 'Q1'}, {'date_id': 20250322, 'quarter': 'Q1'}, {'date_id': 20250323, 'quarter': 'Q1'}, {'date_id': 20250324, 'quarter': 'Q1'}, {'date_id': 20250325, 'quarter': 'Q1'}, {'date_id': 20250326, 'quarter': 'Q1'}, {'date_id': 20250327, 'quarter': 'Q1'}, {'date_id': 20250328, 'quarter': 'Q1'}, {'date_id': 20250329, 'quarter': 'Q1'}, {'date_id': 20250330, 'quarter': 'Q1'}, {'date_id': 20250331, 'quarter': 'Q1'}]
+2026-05-30 20:58:52.947 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 20:58:53.057 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 20:58:58.784 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 20:58:59.154 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 20:58:59.271 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 20:58:59.381 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 20:59:18.394 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 20:59:18.611 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 21:01:13.247 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 21:01:13.358 | INFO     | app.api.lifespan:lifespan:39 - 所有客户端已关闭，服务已停止
+2026-05-30 21:18:11.208 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 21:18:11.425 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 21:27:57.661 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['统计', '华北地区', '销售总额', '统计华北地区2025年1月的销售总额']
+2026-05-30 21:27:58.309 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['销售总额', '成交总额', 'GMV', '华北地区', '统计华北地区2025年1月的销售总额', '销售额', '统计']
+2026-05-30 21:27:58.508 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['华北', '销售总额', '2025年1月', '华北地区', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-30 21:27:59.021 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['华北', '销售总额', '华北地区', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-30 21:27:59.058 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-30 21:28:00.915 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name']
+2026-05-30 21:28:01.013 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-30 21:28:01.015 | ERROR    | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:91 - 合并召回信息失败: the greenlet library is required to use this function. DLL load failed while importing _greenlet: 找不到指定的模块。
+2026-05-30 23:12:26.631 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 23:15:39.516 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 23:15:39.770 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 23:15:47.136 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['华北地区', '销售总额', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-30 23:15:47.781 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['成交总额', '销售额', 'GMV', '华北地区', '销售总额', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-30 23:15:47.844 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['华北', '华北地区', '销售总额', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-30 23:15:47.870 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['华北', '2025年1月', '华北地区', '销售总额', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-30 23:15:47.885 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-30 23:15:50.408 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['dim_region.region_name', 'fact_order.order_amount', 'fact_order.order_quantity']
+2026-05-30 23:15:50.490 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-30 23:15:50.491 | ERROR    | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:91 - 合并召回信息失败: the greenlet library is required to use this function. DLL load failed while importing _greenlet: 找不到指定的模块。
+2026-05-30 23:18:08.510 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 23:20:01.707 | INFO     | app.api.lifespan:lifespan:17 - 正在启动服务，初始化客户端...
+2026-05-30 23:20:01.927 | INFO     | app.api.lifespan:lifespan:26 - 所有客户端初始化完成，服务已就绪
+2026-05-30 23:21:44.379 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:16 - 抽取关键字: ['华北地区', '销售总额', '统计', '统计华北地区2025年1月的销售总额']
+2026-05-30 23:21:44.923 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 召回字段取值扩展关键词：['华北地区', '统计华北地区2025年1月的销售总额', '华北', '销售总额', '统计']
+2026-05-30 23:21:44.942 | INFO     | app.agent.nodes.recall_value:recall_value:46 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-30 23:21:45.077 | INFO     | app.agent.nodes.recall_metric:recall_metric:34 - 召回指标信息扩展关键词：['成交总额', '华北地区', '统计华北地区2025年1月的销售总额', '销售额', '销售总额', '统计', 'GMV']
+2026-05-30 23:21:45.656 | INFO     | app.agent.nodes.recall_column:recall_column:30 - 召回字段信息扩展关键词：['总金额', '华北地区', '统计华北地区2025年1月的销售总额', '销售额', '2025年1月', '销售总额', '统计', '时间', '日期', '区域']
+2026-05-30 23:21:46.053 | INFO     | app.agent.nodes.recall_metric:recall_metric:48 - 召回指标信息：['GMV', 'AOV']
+2026-05-30 23:21:46.893 | INFO     | app.agent.nodes.recall_column:recall_column:40 - 召回字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name', 'dim_date.date_id', 'fact_order.date_id', 'dim_date.year', 'dim_date.month', 'dim_date.day', 'fact_order.region_id', 'dim_region.region_id']
+2026-05-30 23:21:46.896 | ERROR    | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:91 - 合并召回信息失败: the greenlet library is required to use this function. DLL load failed while importing _greenlet: 找不到指定的模块。
+2026-05-30 23:23:08.634 | INFO     | app.api.lifespan:lifespan:31 - 正在关闭服务，清理客户端连接...
+2026-05-30 23:32:41.082 | INFO     | app.api.lifespan:lifespan:14 - 正在启动服务，初始化客户端...
+2026-05-30 23:33:00.865 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-30 23:33:01.243 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-30 23:33:53.894 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-30 23:33:53.895 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:16:13.694 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:16:13.904 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:19:11.266 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:19:11.267 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:19:15.855 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:19:16.067 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:19:25.671 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:19:25.672 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:19:30.152 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:19:30.365 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:19:34.426 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:19:34.427 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:19:38.837 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:19:39.051 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:19:41.564 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:19:41.566 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:19:45.917 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:19:46.128 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:19:49.646 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:19:49.648 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:19:54.097 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:19:54.314 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:20:00.558 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:20:00.560 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:20:04.930 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:20:05.148 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:20:08.681 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:20:08.683 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:20:13.198 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:20:13.418 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:20:19.762 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:20:19.763 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:20:24.080 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:20:24.301 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:20:27.946 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:20:27.947 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:20:32.302 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:20:32.511 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:20:35.698 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:20:35.700 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:20:40.087 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:20:40.298 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:20:44.796 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:20:44.798 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:20:49.172 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:20:49.380 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:20:53.425 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:20:53.426 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:20:57.712 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:20:57.926 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:21:07.577 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:21:07.578 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:21:17.619 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:21:17.831 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:21:30.847 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['华北地区', '统计', '销售总额', '统计华北地区2025年1月的销售总额']
+2026-05-31 00:21:31.364 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['统计华北地区2025年1月的销售总额', '销售总额', '华北地区', '统计', '华北']
+2026-05-31 00:21:31.365 | ERROR    | app.agent.nodes.recall_value:recall_value:48 - 召回字段取值失败: 'coroutine' object is not iterable
+2026-05-31 00:21:31.465 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['成交总额', '统计华北地区2025年1月的销售总额', '销售额', 'GMV', '销售总额', '华北地区', '统计']
+2026-05-31 00:21:31.655 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['统计华北地区2025年1月的销售总额', '销售总额', '华北地区', '1月', '地区', '统计', '华北', '2025年']
+2026-05-31 00:21:32.808 | ERROR    | app.agent.nodes.recall_metric:recall_metric:50 - 召回指标信息失败: 'coroutine' object is not iterable
+2026-05-31 00:21:32.933 | ERROR    | app.agent.nodes.recall_column:recall_column:53 - 召回字段信息失败: 'coroutine' object is not iterable
+2026-05-31 00:23:05.282 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:23:05.284 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:23:09.729 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:23:09.941 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:23:25.354 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:23:25.356 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:23:29.800 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:23:30.021 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:23:32.010 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:23:32.012 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:23:36.279 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:23:36.492 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:23:46.950 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:23:46.952 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:23:51.324 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:23:51.543 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:24:03.710 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:24:03.712 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:24:13.718 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:24:13.927 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:24:21.435 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['统计华北地区2025年1月的销售总额', '销售总额', '华北地区', '统计']
+2026-05-31 00:24:21.858 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['销售总额', '统计华北地区2025年1月的销售总额', '华北', '华北地区', '统计']
+2026-05-31 00:24:22.077 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-31 00:24:22.162 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['销售总额', 'GMV', '成交总额', '统计华北地区2025年1月的销售总额', '销售额', '华北地区', '统计']
+2026-05-31 00:24:22.243 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['2025年', '销售总额', '统计华北地区2025年1月的销售总额', '华北', '地区', '华北地区', '1月', '统计']
+2026-05-31 00:24:23.253 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV', 'AOV']
+2026-05-31 00:24:23.416 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'dim_date.month']
+2026-05-31 00:24:23.509 | ERROR    | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:90 - 合并召回信息失败: 'MetaMysqlRepository' object has no attribute 'get_key_columns_by_table_id'
+2026-05-31 00:25:06.176 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:25:06.178 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:25:21.275 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:25:21.492 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:25:28.551 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['华北地区', '销售总额', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-31 00:25:29.298 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['华北', '华北地区', '销售总额', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-31 00:25:29.319 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['2025年1月', '华北', '地区', '华北地区', '销售总额', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-31 00:25:29.376 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['华北地区', '销售额', '销售总额', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-31 00:25:29.520 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-31 00:25:30.194 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV', 'AOV']
+2026-05-31 00:25:30.392 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.order_amount', 'fact_order.order_quantity']
+2026-05-31 00:25:30.441 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['dim_region', 'fact_order', 'dim_date'], 指标信息-['GMV', 'AOV']
+2026-05-31 00:25:30.888 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: ['GMV']
+2026-05-31 00:25:33.255 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['dim_region', 'fact_order', 'dim_date']
+2026-05-31 00:25:33.296 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-31', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-05-31 00:25:35.252 | INFO     | app.agent.nodes.generate_sql:generate_sql:39 - 生成的SQL: ```sql
+SELECT 
+    SUM(f.order_amount) AS GMV
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' 
+    AND d.date_id BETWEEN 20250101 AND 20250131;
+```
+2026-05-31 00:25:35.256 | ERROR    | app.agent.nodes.validate_sql:validate_sql:24 - SQL验证失败: ```sql
+SELECT 
+    SUM(f.order_amount) AS GMV
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' 
+    AND d.date_id BETWEEN 20250101 AND 20250131;
+```
+2026-05-31 00:25:37.953 | INFO     | app.agent.nodes.correct_sql:correct_sql:43 - 校正后的SQL: ```sql
+SELECT 
+    SUM(f.order_amount) AS GMV
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' 
+    AND d.date_id BETWEEN 20250101 AND 20250131;
+```
+2026-05-31 00:25:37.955 | ERROR    | app.agent.nodes.execute_sql:execute_sql:28 - 执行SQL失败:(pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '```sql\nSELECT \n    SUM(f.order_amount) AS GMV\nFROM \n    fact_order f\nJOIN \n    d' at line 1")
+[SQL: ```sql
+SELECT 
+    SUM(f.order_amount) AS GMV
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' 
+    AND d.date_id BETWEEN 20250101 AND 20250131;
+```]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-05-31 00:28:23.098 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:28:23.100 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:28:27.530 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:28:27.741 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:28:34.129 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:28:34.130 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:28:38.391 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:28:38.603 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:29:17.210 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:29:17.212 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:29:21.631 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:29:21.846 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:29:22.373 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['华北地区', '统计', '统计华北地区2025年1月的销售总额', '销售总额']
+2026-05-31 00:29:22.901 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['华北', '统计华北地区2025年1月的销售总额', '销售总额', '华北地区', '统计']
+2026-05-31 00:29:23.100 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-31 00:29:23.186 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['销售额', '成交额', '统计华北地区2025年1月的销售总额', '销售总额', '华北地区', '统计']
+2026-05-31 00:29:23.762 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV', 'AOV']
+2026-05-31 00:29:23.935 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['时间', '2025年1月', '总销售额', '销售额', '地区', '日期', '华北', '金额', '统计华北地区2025年1月的销售总额', '区域', '销售总额', '华北地区', '统计']
+2026-05-31 00:29:25.066 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['dim_date.date_id', 'fact_order.date_id', 'dim_date.year', 'dim_date.month', 'fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'dim_date.day', 'fact_order.region_id', 'dim_region.region_id']
+2026-05-31 00:29:25.113 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['dim_date', 'fact_order', 'dim_region'], 指标信息-['GMV', 'AOV']
+2026-05-31 00:29:25.551 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: ['GMV']
+2026-05-31 00:29:26.906 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['dim_date', 'fact_order', 'dim_region']
+2026-05-31 00:29:26.958 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-31', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-05-31 00:29:30.927 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: SELECT 
+    SUM(f.order_amount) AS total_sales
+FROM 
+    fact_order f
+JOIN 
+    dim_date d ON f.date_id = d.year * 10000 + d.month * 100 + DAY(f.date_id)
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+WHERE 
+    d.year = 2025 AND d.month = 1 AND r.region_name = '华北';
+2026-05-31 00:29:30.937 | INFO     | app.agent.nodes.validate_sql:validate_sql:18 - SQL验证成功: SELECT 
+    SUM(f.order_amount) AS total_sales
+FROM 
+    fact_order f
+JOIN 
+    dim_date d ON f.date_id = d.year * 10000 + d.month * 100 + DAY(f.date_id)
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+WHERE 
+    d.year = 2025 AND d.month = 1 AND r.region_name = '华北';
+2026-05-31 00:29:30.943 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'total_sales': 124651.0}]
+2026-05-31 00:32:59.769 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:32:59.771 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:33:29.706 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:33:29.918 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:35:08.761 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['??????2025?1??????']
+2026-05-31 00:35:09.217 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['??????2025?1??????']
+2026-05-31 00:35:09.232 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_date.quarter.Q1']
+2026-05-31 00:35:09.455 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['1', '??????2025?1??????', '2025']
+2026-05-31 00:35:09.618 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['??????2025?1??????']
+2026-05-31 00:35:09.778 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：[]
+2026-05-31 00:35:09.842 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：[]
+2026-05-31 00:35:09.888 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['dim_date'], 指标信息-[]
+2026-05-31 00:35:10.222 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: []
+2026-05-31 00:35:10.887 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['dim_date']
+2026-05-31 00:35:10.920 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-31', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-05-31 00:35:13.610 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: SELECT date_id, quarter
+FROM dim_date
+WHERE date_id BETWEEN 20250101 AND 20250331
+AND quarter = 'Q1';
+2026-05-31 00:35:13.614 | INFO     | app.agent.nodes.validate_sql:validate_sql:18 - SQL验证成功: SELECT date_id, quarter
+FROM dim_date
+WHERE date_id BETWEEN 20250101 AND 20250331
+AND quarter = 'Q1';
+2026-05-31 00:35:13.616 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'date_id': 20250101, 'quarter': 'Q1'}, {'date_id': 20250102, 'quarter': 'Q1'}, {'date_id': 20250103, 'quarter': 'Q1'}, {'date_id': 20250104, 'quarter': 'Q1'}, {'date_id': 20250105, 'quarter': 'Q1'}, {'date_id': 20250106, 'quarter': 'Q1'}, {'date_id': 20250107, 'quarter': 'Q1'}, {'date_id': 20250108, 'quarter': 'Q1'}, {'date_id': 20250109, 'quarter': 'Q1'}, {'date_id': 20250110, 'quarter': 'Q1'}, {'date_id': 20250111, 'quarter': 'Q1'}, {'date_id': 20250112, 'quarter': 'Q1'}, {'date_id': 20250113, 'quarter': 'Q1'}, {'date_id': 20250114, 'quarter': 'Q1'}, {'date_id': 20250115, 'quarter': 'Q1'}, {'date_id': 20250116, 'quarter': 'Q1'}, {'date_id': 20250117, 'quarter': 'Q1'}, {'date_id': 20250118, 'quarter': 'Q1'}, {'date_id': 20250119, 'quarter': 'Q1'}, {'date_id': 20250120, 'quarter': 'Q1'}, {'date_id': 20250121, 'quarter': 'Q1'}, {'date_id': 20250122, 'quarter': 'Q1'}, {'date_id': 20250123, 'quarter': 'Q1'}, {'date_id': 20250124, 'quarter': 'Q1'}, {'date_id': 20250125, 'quarter': 'Q1'}, {'date_id': 20250126, 'quarter': 'Q1'}, {'date_id': 20250127, 'quarter': 'Q1'}, {'date_id': 20250128, 'quarter': 'Q1'}, {'date_id': 20250129, 'quarter': 'Q1'}, {'date_id': 20250130, 'quarter': 'Q1'}, {'date_id': 20250131, 'quarter': 'Q1'}, {'date_id': 20250201, 'quarter': 'Q1'}, {'date_id': 20250202, 'quarter': 'Q1'}, {'date_id': 20250203, 'quarter': 'Q1'}, {'date_id': 20250204, 'quarter': 'Q1'}, {'date_id': 20250205, 'quarter': 'Q1'}, {'date_id': 20250206, 'quarter': 'Q1'}, {'date_id': 20250207, 'quarter': 'Q1'}, {'date_id': 20250208, 'quarter': 'Q1'}, {'date_id': 20250209, 'quarter': 'Q1'}, {'date_id': 20250210, 'quarter': 'Q1'}, {'date_id': 20250211, 'quarter': 'Q1'}, {'date_id': 20250212, 'quarter': 'Q1'}, {'date_id': 20250213, 'quarter': 'Q1'}, {'date_id': 20250214, 'quarter': 'Q1'}, {'date_id': 20250215, 'quarter': 'Q1'}, {'date_id': 20250216, 'quarter': 'Q1'}, {'date_id': 20250217, 'quarter': 'Q1'}, {'date_id': 20250218, 'quarter': 'Q1'}, {'date_id': 20250219, 'quarter': 'Q1'}, {'date_id': 20250220, 'quarter': 'Q1'}, {'date_id': 20250221, 'quarter': 'Q1'}, {'date_id': 20250222, 'quarter': 'Q1'}, {'date_id': 20250223, 'quarter': 'Q1'}, {'date_id': 20250224, 'quarter': 'Q1'}, {'date_id': 20250225, 'quarter': 'Q1'}, {'date_id': 20250226, 'quarter': 'Q1'}, {'date_id': 20250227, 'quarter': 'Q1'}, {'date_id': 20250228, 'quarter': 'Q1'}, {'date_id': 20250301, 'quarter': 'Q1'}, {'date_id': 20250302, 'quarter': 'Q1'}, {'date_id': 20250303, 'quarter': 'Q1'}, {'date_id': 20250304, 'quarter': 'Q1'}, {'date_id': 20250305, 'quarter': 'Q1'}, {'date_id': 20250306, 'quarter': 'Q1'}, {'date_id': 20250307, 'quarter': 'Q1'}, {'date_id': 20250308, 'quarter': 'Q1'}, {'date_id': 20250309, 'quarter': 'Q1'}, {'date_id': 20250310, 'quarter': 'Q1'}, {'date_id': 20250311, 'quarter': 'Q1'}, {'date_id': 20250312, 'quarter': 'Q1'}, {'date_id': 20250313, 'quarter': 'Q1'}, {'date_id': 20250314, 'quarter': 'Q1'}, {'date_id': 20250315, 'quarter': 'Q1'}, {'date_id': 20250316, 'quarter': 'Q1'}, {'date_id': 20250317, 'quarter': 'Q1'}, {'date_id': 20250318, 'quarter': 'Q1'}, {'date_id': 20250319, 'quarter': 'Q1'}, {'date_id': 20250320, 'quarter': 'Q1'}, {'date_id': 20250321, 'quarter': 'Q1'}, {'date_id': 20250322, 'quarter': 'Q1'}, {'date_id': 20250323, 'quarter': 'Q1'}, {'date_id': 20250324, 'quarter': 'Q1'}, {'date_id': 20250325, 'quarter': 'Q1'}, {'date_id': 20250326, 'quarter': 'Q1'}, {'date_id': 20250327, 'quarter': 'Q1'}, {'date_id': 20250328, 'quarter': 'Q1'}, {'date_id': 20250329, 'quarter': 'Q1'}, {'date_id': 20250330, 'quarter': 'Q1'}, {'date_id': 20250331, 'quarter': 'Q1'}]
+2026-05-31 00:36:31.846 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['地区', '统计各地区销量前三的商品', '销量', '统计', '商品']
+2026-05-31 00:36:32.424 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['地区', '统计各地区销量前三的商品', '销售量', '销量', '统计', '商品']
+2026-05-31 00:36:32.608 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['地区', '统计各地区销量前三的商品', '销量', '统计', '商品']
+2026-05-31 00:36:32.737 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['地区', '统计各地区销量前三的商品', '销售量', '销量', '统计', '产品', '商品', '区域']
+2026-05-31 00:36:32.847 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_product.brand.三星']
+2026-05-31 00:36:33.128 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV']
+2026-05-31 00:36:33.612 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.order_quantity', 'fact_order.order_amount', 'dim_product.product_name', 'dim_product.brand', 'dim_product.category', 'fact_order.product_id', 'dim_product.product_id', 'fact_order.region_id', 'dim_region.region_id']
+2026-05-31 00:36:33.653 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['dim_region', 'fact_order', 'dim_product'], 指标信息-['GMV']
+2026-05-31 00:36:34.039 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: []
+2026-05-31 00:36:35.158 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['dim_region', 'fact_order', 'dim_product']
+2026-05-31 00:36:35.187 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-31', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-05-31 00:36:39.073 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-05-31 00:36:39.080 | INFO     | app.agent.nodes.validate_sql:validate_sql:18 - SQL验证成功: WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-05-31 00:36:39.086 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'地区': '华东', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('100')}, {'地区': '华东', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('45')}, {'地区': '华东', '商品名称': '乐事原味薯片 150g', '销量': Decimal('35')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('22')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('4')}, {'地区': '华东', '商品名称': '李维斯 501 牛仔裤', '销量': Decimal('3')}, {'地区': '华中', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('48')}, {'地区': '华中', '商品名称': '乐事原味薯片 150g', '销量': Decimal('20')}, {'地区': '华中', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('5')}, {'地区': '华北', '商品名称': '乐事原味薯片 150g', '销量': Decimal('27')}, {'地区': '华北', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('24')}, {'地区': '华北', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('9')}, {'地区': '华南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('48')}, {'地区': '华南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('40')}, {'地区': '华南', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('16')}, {'地区': '西南', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('56')}, {'地区': '西南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('10')}, {'地区': '西南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('9')}]
+2026-05-31 00:40:00.766 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:40:00.767 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:41:33.000 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:41:33.211 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:41:33.738 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['找出', '最高', '客户', '消费', '总金额', '找出消费总金额最高的前5名客户']
+2026-05-31 00:41:34.208 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['找出', '最高', '客户', '消费', '总金额', '找出消费总金额最高的前5名客户']
+2026-05-31 00:41:34.411 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['找出', '消费总金额', '最高', '客户', '消费', '前5名', '总金额', '找出消费总金额最高的前5名客户']
+2026-05-31 00:41:34.463 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：[]
+2026-05-31 00:41:34.729 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['找出', '消费总金额', '客户消费额', '最高', '客户', '消费', '总金额', '用户支出总额', '找出消费总金额最高的前5名客户']
+2026-05-31 00:41:36.010 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['dim_region.province', 'fact_order.order_amount', 'fact_order.order_quantity', 'dim_customer.customer_name', 'fact_order.customer_id', 'dim_customer.customer_id', 'dim_customer.gender']
+2026-05-31 00:41:36.200 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV', 'AOV']
+2026-05-31 00:41:36.256 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['dim_region', 'fact_order', 'dim_customer'], 指标信息-['GMV', 'AOV']
+2026-05-31 00:41:37.071 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: ['GMV']
+2026-05-31 00:41:37.573 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['fact_order', 'dim_customer']
+2026-05-31 00:41:37.622 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-31', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-05-31 00:41:39.593 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: WITH CustomerTotalAmount AS (
+    SELECT
+        fo.customer_id,
+        SUM(fo.order_amount) AS total_amount,
+        ROW_NUMBER() OVER (ORDER BY SUM(fo.order_amount) DESC) AS rn
+    FROM fact_order fo
+    GROUP BY fo.customer_id
+)
+SELECT cta.customer_id, cta.total_amount
+FROM CustomerTotalAmount cta
+WHERE cta.rn <= 5
+ORDER BY cta.total_amount DESC;
+2026-05-31 00:41:39.597 | INFO     | app.agent.nodes.validate_sql:validate_sql:18 - SQL验证成功: WITH CustomerTotalAmount AS (
+    SELECT
+        fo.customer_id,
+        SUM(fo.order_amount) AS total_amount,
+        ROW_NUMBER() OVER (ORDER BY SUM(fo.order_amount) DESC) AS rn
+    FROM fact_order fo
+    GROUP BY fo.customer_id
+)
+SELECT cta.customer_id, cta.total_amount
+FROM CustomerTotalAmount cta
+WHERE cta.rn <= 5
+ORDER BY cta.total_amount DESC;
+2026-05-31 00:41:39.599 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'customer_id': 'C001', 'total_amount': 20764.5}, {'customer_id': 'C010', 'total_amount': 19694.0}, {'customer_id': 'C017', 'total_amount': 19644.0}, {'customer_id': 'C015', 'total_amount': 19500.0}, {'customer_id': 'C014', 'total_amount': 18982.5}]
+2026-05-31 00:41:46.673 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['找出', '最高', '客户', '消费', '总金额', '找出消费总金额最高的前5名客户']
+2026-05-31 00:41:47.236 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['找出', '最高', '客户', '消费', '总金额', '找出消费总金额最高的前5名客户']
+2026-05-31 00:41:47.406 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['找出', '消费总金额', '最高', '客户', '消费', '前5名', '总金额', '找出消费总金额最高的前5名客户']
+2026-05-31 00:41:47.435 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['找出', '消费总金额', '最高', '客户', '消费', '销售额', '成交额', '总金额', '找出消费总金额最高的前5名客户']
+2026-05-31 00:41:47.504 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：[]
+2026-05-31 00:41:48.596 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['dim_region.province', 'fact_order.order_amount', 'fact_order.order_quantity', 'dim_customer.customer_name', 'fact_order.customer_id', 'dim_customer.customer_id', 'dim_customer.gender']
+2026-05-31 00:41:48.807 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV', 'AOV']
+2026-05-31 00:41:48.842 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['dim_region', 'fact_order', 'dim_customer'], 指标信息-['GMV', 'AOV']
+2026-05-31 00:41:49.273 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: ['GMV']
+2026-05-31 00:41:49.611 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['fact_order', 'dim_customer']
+2026-05-31 00:41:49.653 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-31', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-05-31 00:41:51.899 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: WITH CustomerTotalAmount AS (
+    SELECT
+        fo.customer_id,
+        SUM(fo.order_amount) AS total_amount,
+        ROW_NUMBER() OVER (ORDER BY SUM(fo.order_amount) DESC) AS rn
+    FROM fact_order fo
+    GROUP BY fo.customer_id
+)
+SELECT 
+    c.customer_name,
+    cta.total_amount
+FROM CustomerTotalAmount cta
+JOIN dim_customer c ON cta.customer_id = c.customer_id
+WHERE cta.rn <= 5
+ORDER BY cta.total_amount DESC;
+2026-05-31 00:41:51.904 | INFO     | app.agent.nodes.validate_sql:validate_sql:18 - SQL验证成功: WITH CustomerTotalAmount AS (
+    SELECT
+        fo.customer_id,
+        SUM(fo.order_amount) AS total_amount,
+        ROW_NUMBER() OVER (ORDER BY SUM(fo.order_amount) DESC) AS rn
+    FROM fact_order fo
+    GROUP BY fo.customer_id
+)
+SELECT 
+    c.customer_name,
+    cta.total_amount
+FROM CustomerTotalAmount cta
+JOIN dim_customer c ON cta.customer_id = c.customer_id
+WHERE cta.rn <= 5
+ORDER BY cta.total_amount DESC;
+2026-05-31 00:41:51.907 | INFO     | app.agent.nodes.execute_sql:execute_sql:22 - 执行SQL结果: [{'customer_name': '李伟', 'total_amount': 20764.5}, {'customer_name': '徐浩', 'total_amount': 19694.0}, {'customer_name': '何娜', 'total_amount': 19644.0}, {'customer_name': '高梅', 'total_amount': 19500.0}, {'customer_name': '胡杰', 'total_amount': 18982.5}]
+2026-05-31 00:45:07.613 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:45:07.615 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:45:12.107 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:45:12.378 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:45:26.360 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['华北地区', '销售总额', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-31 00:45:26.850 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['销售总额', '华北', '华北地区', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-31 00:45:26.999 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['销售额', '成交总额', '销售总额', 'GMV', '华北地区', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-31 00:45:27.051 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-31 00:45:27.460 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['销售额', '总销售额', '2025年1月', '销售总额', '华北', '华北地区', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-31 00:45:27.815 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV', 'AOV']
+2026-05-31 00:45:28.407 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name']
+2026-05-31 00:45:28.451 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['fact_order', 'dim_region', 'dim_date'], 指标信息-['GMV', 'AOV']
+2026-05-31 00:45:28.987 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: ['GMV']
+2026-05-31 00:45:30.118 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['fact_order', 'dim_region', 'dim_date']
+2026-05-31 00:45:30.157 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-31', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-05-31 00:45:33.214 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: SELECT 
+    SUM(f.order_amount) AS total_sales
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' 
+    AND d.date_id BETWEEN 20250101 AND 20250131;
+2026-05-31 00:45:33.218 | INFO     | app.agent.nodes.validate_sql:validate_sql:18 - SQL验证成功: SELECT 
+    SUM(f.order_amount) AS total_sales
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' 
+    AND d.date_id BETWEEN 20250101 AND 20250131;
+2026-05-31 00:45:33.220 | INFO     | app.agent.nodes.execute_sql:execute_sql:24 - 执行SQL结果: [{'total_sales': 4021.0}]
+2026-05-31 00:47:36.851 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:47:36.853 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:47:41.302 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:47:41.514 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:48:19.366 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:48:19.368 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:48:23.817 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:48:24.031 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:49:22.108 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:49:22.110 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:49:26.408 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:49:26.618 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:49:45.200 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['销售总额', '统计', '华北地区', '统计华北地区2025年1月的销售总额']
+2026-05-31 00:49:45.862 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['销售额', 'GMV', '统计', '华北地区', '统计华北地区2025年1月的销售总额', '成交总额', '销售总额']
+2026-05-31 00:49:45.872 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['华北', '统计', '华北地区', '统计华北地区2025年1月的销售总额', '销售总额']
+2026-05-31 00:49:45.897 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['统计', '华北地区', '统计华北地区2025年1月的销售总额', '2025年1月', '销售总额']
+2026-05-31 00:49:46.070 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-31 00:49:46.723 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['fact_order.order_quantity', 'dim_region.region_name', 'fact_order.order_amount']
+2026-05-31 00:49:46.915 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV', 'AOV']
+2026-05-31 00:49:46.974 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['fact_order', 'dim_region', 'dim_date'], 指标信息-['GMV', 'AOV']
+2026-05-31 00:49:47.427 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: ['GMV']
+2026-05-31 00:49:49.221 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['fact_order', 'dim_region', 'dim_date']
+2026-05-31 00:49:49.275 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-31', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-05-31 00:50:04.808 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: SELECT 
+    SUM(f.order_amount) AS total_sales
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' 
+    AND d.date_id BETWEEN 20250101 AND 20250131;
+2026-05-31 00:50:04.811 | INFO     | app.agent.nodes.validate_sql:validate_sql:18 - SQL验证成功: SELECT 
+    SUM(f.order_amount) AS total_sales
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' 
+    AND d.date_id BETWEEN 20250101 AND 20250131;
+2026-05-31 00:50:04.814 | INFO     | app.agent.nodes.execute_sql:execute_sql:24 - 执行SQL结果: [{'total_sales': 4021.0}]
+2026-05-31 00:50:59.617 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:50:59.620 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:52:04.985 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:52:05.194 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:52:05.297 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 00:52:05.298 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 00:52:23.629 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 00:52:23.836 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 00:52:30.510 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['华北地区', '统计', '销售总额', '统计华北地区2025年1月的销售总额']
+2026-05-31 00:52:31.257 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['华北地区', '统计', '统计华北地区2025年1月的销售总额', '销售总额', '华北']
+2026-05-31 00:52:31.381 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['华北地区', '统计', '统计华北地区2025年1月的销售总额', '成交总额', '销售总额', 'GMV', '销售额']
+2026-05-31 00:52:31.470 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-31 00:52:32.056 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['华北地区', '统计', '统计华北地区2025年1月的销售总额', '2025年1月', '总销售额', '销售总额', '地区', '时间', '华北', '日期', '销售额', '区域']
+2026-05-31 00:52:32.348 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV', 'AOV']
+2026-05-31 00:52:33.295 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['dim_region.region_name', 'fact_order.order_quantity', 'fact_order.order_amount', 'dim_region.province', 'dim_region.country', 'dim_date.date_id', 'fact_order.date_id', 'dim_date.year', 'dim_date.month', 'dim_date.day', 'fact_order.region_id', 'dim_region.region_id']
+2026-05-31 00:52:33.344 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['dim_region', 'fact_order', 'dim_date'], 指标信息-['GMV', 'AOV']
+2026-05-31 00:52:33.860 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: ['GMV']
+2026-05-31 00:52:36.518 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['dim_region', 'fact_order', 'dim_date']
+2026-05-31 00:52:36.556 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-31', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-05-31 00:52:38.484 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: SELECT 
+    SUM(f.order_amount) AS total_sales
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' AND 
+    d.year = 2025 AND 
+    d.month = 1;
+2026-05-31 00:52:38.487 | INFO     | app.agent.nodes.validate_sql:validate_sql:18 - SQL验证成功: SELECT 
+    SUM(f.order_amount) AS total_sales
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' AND 
+    d.year = 2025 AND 
+    d.month = 1;
+2026-05-31 00:52:38.489 | INFO     | app.agent.nodes.execute_sql:execute_sql:24 - 执行SQL结果: [{'total_sales': 4021.0}]
+2026-05-31 00:52:38.490 | INFO     | app.services.query_service:query:118 - DEBUG: final_result = [{'total_sales': 4021.0}]
+2026-05-31 00:52:38.491 | INFO     | app.services.query_service:query:119 - DEBUG: final_sql = SELECT 
+    SUM(f.order_amount) AS total_sales
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' AND 
+    d.year = 2025 AND 
+    d.month = 1;
+2026-05-31 23:31:19.211 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['统计', '地区', '统计各地区销量前三的商品', '销量', '商品']
+2026-05-31 23:31:19.882 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['统计', '地区', '统计各地区销量前三的商品', '销量', '商品']
+2026-05-31 23:31:19.926 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['统计', '地区', '统计各地区销量前三的商品', '销量', '商品', '销售量']
+2026-05-31 23:31:20.130 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_product.brand.三星']
+2026-05-31 23:31:20.208 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['统计', '地区', '排名', '统计各地区销量前三的商品', '销量', '商品']
+2026-05-31 23:31:22.924 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV']
+2026-05-31 23:31:22.993 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['fact_order.order_quantity', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.order_amount', 'dim_product.category', 'dim_product.product_name', 'dim_product.brand']
+2026-05-31 23:31:23.095 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['fact_order', 'dim_region', 'dim_product'], 指标信息-['GMV']
+2026-05-31 23:31:23.591 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: []
+2026-05-31 23:31:24.608 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['fact_order', 'dim_region', 'dim_product']
+2026-05-31 23:31:24.643 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-31', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-05-31 23:31:27.394 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-05-31 23:31:27.406 | INFO     | app.agent.nodes.validate_sql:validate_sql:18 - SQL验证成功: WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-05-31 23:31:27.413 | INFO     | app.agent.nodes.execute_sql:execute_sql:24 - 执行SQL结果: [{'地区': '华东', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('100')}, {'地区': '华东', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('45')}, {'地区': '华东', '商品名称': '乐事原味薯片 150g', '销量': Decimal('35')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('22')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('4')}, {'地区': '华东', '商品名称': '李维斯 501 牛仔裤', '销量': Decimal('3')}, {'地区': '华中', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('48')}, {'地区': '华中', '商品名称': '乐事原味薯片 150g', '销量': Decimal('20')}, {'地区': '华中', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('5')}, {'地区': '华北', '商品名称': '乐事原味薯片 150g', '销量': Decimal('27')}, {'地区': '华北', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('24')}, {'地区': '华北', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('9')}, {'地区': '华南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('48')}, {'地区': '华南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('40')}, {'地区': '华南', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('16')}, {'地区': '西南', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('56')}, {'地区': '西南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('10')}, {'地区': '西南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('9')}]
+2026-05-31 23:31:27.415 | INFO     | app.services.query_service:query:118 - DEBUG: final_result = [{'地区': '华东', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('100')}, {'地区': '华东', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('45')}, {'地区': '华东', '商品名称': '乐事原味薯片 150g', '销量': Decimal('35')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('22')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('4')}, {'地区': '华东', '商品名称': '李维斯 501 牛仔裤', '销量': Decimal('3')}, {'地区': '华中', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('48')}, {'地区': '华中', '商品名称': '乐事原味薯片 150g', '销量': Decimal('20')}, {'地区': '华中', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('5')}, {'地区': '华北', '商品名称': '乐事原味薯片 150g', '销量': Decimal('27')}, {'地区': '华北', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('24')}, {'地区': '华北', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('9')}, {'地区': '华南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('48')}, {'地区': '华南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('40')}, {'地区': '华南', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('16')}, {'地区': '西南', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('56')}, {'地区': '西南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('10')}, {'地区': '西南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('9')}]
+2026-05-31 23:31:27.415 | INFO     | app.services.query_service:query:119 - DEBUG: final_sql = WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-05-31 23:32:47.412 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 23:32:47.415 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 23:32:53.462 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 23:32:53.736 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 23:37:08.924 | INFO     | app.api.lifespan:lifespan:30 - 正在关闭服务，清理客户端连接...
+2026-05-31 23:37:08.925 | INFO     | app.api.lifespan:lifespan:36 - 所有客户端已关闭，服务已停止
+2026-05-31 23:37:25.919 | INFO     | app.api.lifespan:lifespan:15 - 正在启动服务，初始化客户端...
+2026-05-31 23:37:26.130 | INFO     | app.api.lifespan:lifespan:25 - 所有客户端初始化完成，服务已就绪
+2026-05-31 23:53:37.911 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['华北地区', '统计', '统计华北地区2025年1月的销售总额', '销售总额']
+2026-05-31 23:53:38.405 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['华北地区', '销售总额', '统计华北地区2025年1月的销售总额', '华北', '统计']
+2026-05-31 23:53:38.593 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-05-31 23:53:38.619 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['华北地区', '销售总额', '2025年1月', '统计华北地区2025年1月的销售总额', '统计']
+2026-05-31 23:53:39.154 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['dim_region.region_name', 'fact_order.order_amount', 'fact_order.order_quantity']
+2026-05-31 23:53:40.876 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['华北地区', '销售总额', '统计华北地区2025年1月的销售总额', '统计', '销售额']
+2026-05-31 23:53:41.370 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV', 'AOV']
+2026-05-31 23:53:41.431 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['dim_region', 'fact_order', 'dim_date'], 指标信息-['GMV', 'AOV']
+2026-05-31 23:53:43.410 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: ['GMV']
+2026-05-31 23:53:44.151 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['dim_region', 'fact_order', 'dim_date']
+2026-05-31 23:53:44.184 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-05-31', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-05-31 23:53:47.766 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: SELECT 
+    SUM(f.order_amount) AS 销售总额
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' 
+    AND d.date_id BETWEEN 20250101 AND 20250131;
+2026-05-31 23:53:47.771 | INFO     | app.agent.nodes.validate_sql:validate_sql:18 - SQL验证成功: SELECT 
+    SUM(f.order_amount) AS 销售总额
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' 
+    AND d.date_id BETWEEN 20250101 AND 20250131;
+2026-05-31 23:53:47.774 | INFO     | app.agent.nodes.execute_sql:execute_sql:24 - 执行SQL结果: [{'销售总额': 4021.0}]
+2026-05-31 23:53:47.775 | INFO     | app.services.query_service:query:118 - DEBUG: final_result = [{'销售总额': 4021.0}]
+2026-05-31 23:53:47.776 | INFO     | app.services.query_service:query:119 - DEBUG: final_sql = SELECT 
+    SUM(f.order_amount) AS 销售总额
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+WHERE 
+    r.region_name = '华北' 
+    AND d.date_id BETWEEN 20250101 AND 20250131;
+2026-06-01 00:01:28.772 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['华北地区', '统计', '统计华北地区2025年1月的销售总额', '销售总额']
+2026-06-01 00:01:29.239 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['华北地区', '销售总额', '统计华北地区2025年1月的销售总额', '华北', '统计']
+2026-06-01 00:01:29.459 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_region.region_name.华北', 'dim_date.quarter.Q1']
+2026-06-01 00:01:30.127 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['华北地区', '时间', '总销售额', '地区', '销售总额', '2025年1月', '金额', '统计华北地区2025年1月的销售总额', '日期', '统计', '销售额']
+2026-06-01 00:01:31.187 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['dim_region.region_name', 'dim_date.date_id', 'fact_order.date_id', 'dim_date.year', 'dim_date.month', 'fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.province', 'dim_region.country', 'dim_date.day']
+2026-06-01 00:01:31.781 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['华北地区', '成交额', '销售总额', 'GMV', '统计华北地区2025年1月的销售总额', '统计', '销售额']
+2026-06-01 00:01:32.452 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV', 'AOV']
+2026-06-01 00:01:32.506 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['dim_region', 'dim_date', 'fact_order'], 指标信息-['GMV', 'AOV']
+2026-06-01 00:01:32.912 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: ['GMV']
+2026-06-01 00:01:34.346 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['dim_region', 'dim_date', 'fact_order']
+2026-06-01 00:01:34.398 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-06-01', 'weekday': 'Monday', 'quarter': 'Q2'}
+2026-06-01 00:01:36.375 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: SELECT 
+    SUM(f.order_amount) AS total_sales
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.year * 10000 + d.month * 100 + DAY(d.date)
+WHERE 
+    r.region_name = '华北' AND d.year = 2025 AND d.month = 1;
+2026-06-01 00:01:36.380 | ERROR    | app.agent.nodes.validate_sql:validate_sql:24 - SQL验证失败: SELECT 
+    SUM(f.order_amount) AS total_sales
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_id
+JOIN 
+    dim_date d ON f.date_id = d.year * 10000 + d.month * 100 + DAY(d.date)
+WHERE 
+    r.region_name = '华北' AND d.year = 2025 AND d.month = 1;
+2026-06-01 00:01:38.173 | INFO     | app.agent.nodes.correct_sql:correct_sql:48 - 校正后的SQL: SELECT 
+    SUM(f.order_amount) AS total_sales
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_name
+JOIN 
+    dim_date d ON f.date_id = d.year * 10000 + d.month * 100
+WHERE 
+    r.region_name = '华北' AND d.year = 2025 AND d.month = 1;
+2026-06-01 00:01:38.177 | INFO     | app.agent.nodes.execute_sql:execute_sql:24 - 执行SQL结果: [{'total_sales': None}]
+2026-06-01 00:01:38.178 | INFO     | app.services.query_service:query:118 - DEBUG: final_result = [{'total_sales': None}]
+2026-06-01 00:01:38.178 | INFO     | app.services.query_service:query:119 - DEBUG: final_sql = SELECT 
+    SUM(f.order_amount) AS total_sales
+FROM 
+    fact_order f
+JOIN 
+    dim_region r ON f.region_id = r.region_name
+JOIN 
+    dim_date d ON f.date_id = d.year * 10000 + d.month * 100
+WHERE 
+    r.region_name = '华北' AND d.year = 2025 AND d.month = 1;
+2026-06-01 00:02:16.098 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['商品', '地区', '统计', '统计各地区销量前三的商品', '销量']
+2026-06-01 00:02:16.607 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['商品', '地区', '统计', '统计各地区销量前三的商品', '销量']
+2026-06-01 00:02:16.829 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_product.brand.三星']
+2026-06-01 00:02:16.883 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['商品', '地区', '排名', '统计', '统计各地区销量前三的商品', '销量']
+2026-06-01 00:02:16.899 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['商品', '地区', '销售量', '统计', '统计各地区销量前三的商品', '销量']
+2026-06-01 00:02:17.737 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['dim_product.category', 'dim_product.product_name', 'dim_product.brand', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.order_quantity', 'fact_order.order_amount']
+2026-06-01 00:02:17.786 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV']
+2026-06-01 00:02:17.821 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['dim_product', 'dim_region', 'fact_order'], 指标信息-['GMV']
+2026-06-01 00:02:19.296 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: []
+2026-06-01 00:02:20.165 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['dim_product', 'dim_region', 'fact_order']
+2026-06-01 00:02:20.214 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-06-01', 'weekday': 'Monday', 'quarter': 'Q2'}
+2026-06-01 00:02:36.472 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-06-01 00:02:36.479 | INFO     | app.agent.nodes.validate_sql:validate_sql:18 - SQL验证成功: WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-06-01 00:02:36.482 | INFO     | app.agent.nodes.execute_sql:execute_sql:24 - 执行SQL结果: [{'地区': '华东', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('100')}, {'地区': '华东', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('45')}, {'地区': '华东', '商品名称': '乐事原味薯片 150g', '销量': Decimal('35')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('22')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('4')}, {'地区': '华东', '商品名称': '李维斯 501 牛仔裤', '销量': Decimal('3')}, {'地区': '华中', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('48')}, {'地区': '华中', '商品名称': '乐事原味薯片 150g', '销量': Decimal('20')}, {'地区': '华中', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('5')}, {'地区': '华北', '商品名称': '乐事原味薯片 150g', '销量': Decimal('27')}, {'地区': '华北', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('24')}, {'地区': '华北', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('9')}, {'地区': '华南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('48')}, {'地区': '华南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('40')}, {'地区': '华南', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('16')}, {'地区': '西南', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('56')}, {'地区': '西南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('10')}, {'地区': '西南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('9')}]
+2026-06-01 00:02:36.484 | INFO     | app.services.query_service:query:118 - DEBUG: final_result = [{'地区': '华东', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('100')}, {'地区': '华东', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('45')}, {'地区': '华东', '商品名称': '乐事原味薯片 150g', '销量': Decimal('35')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('22')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('4')}, {'地区': '华东', '商品名称': '李维斯 501 牛仔裤', '销量': Decimal('3')}, {'地区': '华中', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('48')}, {'地区': '华中', '商品名称': '乐事原味薯片 150g', '销量': Decimal('20')}, {'地区': '华中', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('5')}, {'地区': '华北', '商品名称': '乐事原味薯片 150g', '销量': Decimal('27')}, {'地区': '华北', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('24')}, {'地区': '华北', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('9')}, {'地区': '华南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('48')}, {'地区': '华南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('40')}, {'地区': '华南', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('16')}, {'地区': '西南', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('56')}, {'地区': '西南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('10')}, {'地区': '西南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('9')}]
+2026-06-01 00:02:36.484 | INFO     | app.services.query_service:query:119 - DEBUG: final_sql = WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-06-01 00:03:06.315 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['等于', '1➕1等于几']
+2026-06-01 00:03:06.707 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['等于', '1➕1等于几']
+2026-06-01 00:03:06.843 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['等于', '1➕1等于几']
+2026-06-01 00:03:06.924 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['等于', '1➕1等于几']
+2026-06-01 00:03:06.958 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_date.quarter.Q1']
+2026-06-01 00:03:07.558 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：[]
+2026-06-01 00:03:07.668 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：[]
+2026-06-01 00:03:07.709 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['dim_date'], 指标信息-[]
+2026-06-01 00:03:08.305 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: []
+2026-06-01 00:03:08.385 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: []
+2026-06-01 00:03:08.430 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-06-01', 'weekday': 'Monday', 'quarter': 'Q2'}
+2026-06-01 00:03:09.614 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: SELECT 1 + 1 AS result;
+2026-06-01 00:03:09.617 | INFO     | app.agent.nodes.validate_sql:validate_sql:18 - SQL验证成功: SELECT 1 + 1 AS result;
+2026-06-01 00:03:09.619 | INFO     | app.agent.nodes.execute_sql:execute_sql:24 - 执行SQL结果: [{'result': 2}]
+2026-06-01 00:03:09.620 | INFO     | app.services.query_service:query:118 - DEBUG: final_result = [{'result': 2}]
+2026-06-01 00:03:09.620 | INFO     | app.services.query_service:query:119 - DEBUG: final_sql = SELECT 1 + 1 AS result;
+2026-06-01 00:05:28.003 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:19 - 抽取关键字: ['商品', '地区', '统计', '统计各地区销量前三的商品', '销量']
+2026-06-01 00:05:28.676 | INFO     | app.agent.nodes.recall_column:recall_column:33 - 召回字段信息扩展关键词：['商品', '地区', '排名', '统计', '统计各地区销量前三的商品', '销量']
+2026-06-01 00:05:28.760 | INFO     | app.agent.nodes.recall_value:recall_value:30 - 召回字段取值扩展关键词：['商品', '地区', '统计', '统计各地区销量前三的商品', '销量']
+2026-06-01 00:05:28.982 | INFO     | app.agent.nodes.recall_value:recall_value:42 - 召回字段取值：['dim_product.brand.三星']
+2026-06-01 00:05:29.257 | INFO     | app.agent.nodes.recall_column:recall_column:47 - 召回字段信息：['dim_product.category', 'dim_product.product_name', 'dim_product.brand', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.order_quantity', 'fact_order.order_amount']
+2026-06-01 00:05:29.486 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 召回指标信息扩展关键词：['商品', '地区', '销售量', '统计', '统计各地区销量前三的商品', '销量']
+2026-06-01 00:05:30.068 | INFO     | app.agent.nodes.recall_metric:recall_metric:44 - 召回指标信息：['GMV']
+2026-06-01 00:05:30.075 | INFO     | app.agent.nodes.merge_retrieved_info:merge_retrieved_info:84 - 合并召回信息: 表信息-['dim_product', 'dim_region', 'fact_order'], 指标信息-['GMV']
+2026-06-01 00:05:31.216 | INFO     | app.agent.nodes.filter_metric:filter_metric:37 - 过滤后的指标: []
+2026-06-01 00:05:31.706 | INFO     | app.agent.nodes.filter_table:filter_table:42 - 过滤后的表信息: ['dim_product', 'dim_region', 'fact_order']
+2026-06-01 00:05:31.708 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:26 - 额外上下文信息：数据库信息-{'version': '8.0.46', 'dialect': 'mysql'} 日期信息-{'date': '2026-06-01', 'weekday': 'Monday', 'quarter': 'Q2'}
+2026-06-01 00:05:37.198 | INFO     | app.agent.nodes.generate_sql:generate_sql:44 - 生成的SQL: WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-06-01 00:05:37.201 | INFO     | app.agent.nodes.validate_sql:validate_sql:18 - SQL验证成功: WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;
+2026-06-01 00:05:37.204 | INFO     | app.agent.nodes.execute_sql:execute_sql:24 - 执行SQL结果: [{'地区': '华东', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('100')}, {'地区': '华东', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('45')}, {'地区': '华东', '商品名称': '乐事原味薯片 150g', '销量': Decimal('35')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('22')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('4')}, {'地区': '华东', '商品名称': '李维斯 501 牛仔裤', '销量': Decimal('3')}, {'地区': '华中', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('48')}, {'地区': '华中', '商品名称': '乐事原味薯片 150g', '销量': Decimal('20')}, {'地区': '华中', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('5')}, {'地区': '华北', '商品名称': '乐事原味薯片 150g', '销量': Decimal('27')}, {'地区': '华北', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('24')}, {'地区': '华北', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('9')}, {'地区': '华南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('48')}, {'地区': '华南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('40')}, {'地区': '华南', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('16')}, {'地区': '西南', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('56')}, {'地区': '西南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('10')}, {'地区': '西南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('9')}]
+2026-06-01 00:05:37.205 | INFO     | app.services.query_service:query:118 - DEBUG: final_result = [{'地区': '华东', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('100')}, {'地区': '华东', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('45')}, {'地区': '华东', '商品名称': '乐事原味薯片 150g', '销量': Decimal('35')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('22')}, {'地区': '华东', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('4')}, {'地区': '华东', '商品名称': '李维斯 501 牛仔裤', '销量': Decimal('3')}, {'地区': '华中', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('48')}, {'地区': '华中', '商品名称': '乐事原味薯片 150g', '销量': Decimal('20')}, {'地区': '华中', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('5')}, {'地区': '华北', '商品名称': '乐事原味薯片 150g', '销量': Decimal('27')}, {'地区': '华北', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('24')}, {'地区': '华北', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('9')}, {'地区': '华南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('48')}, {'地区': '华南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('40')}, {'地区': '华南', '商品名称': '雀巢金牌速溶咖啡', '销量': Decimal('16')}, {'地区': '西南', '商品名称': '蒙牛纯牛奶 250ml*12', '销量': Decimal('56')}, {'地区': '西南', '商品名称': '奥利奥巧克力夹心饼干', '销量': Decimal('10')}, {'地区': '西南', '商品名称': '乐事原味薯片 150g', '销量': Decimal('9')}]
+2026-06-01 00:05:37.205 | INFO     | app.services.query_service:query:119 - DEBUG: final_sql = WITH ProductSalesRank AS (
+    SELECT
+        r.region_name AS 地区,
+        p.product_name AS 商品名称,
+        SUM(o.order_quantity) AS 销量,
+        ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(o.order_quantity) DESC) AS rn
+    FROM fact_order o
+    JOIN dim_product p ON o.product_id = p.product_id
+    JOIN dim_region r ON o.region_id = r.region_id
+    GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+)
+SELECT 地区, 商品名称, 销量
+FROM ProductSalesRank
+WHERE rn <= 3
+ORDER BY 地区, 销量 DESC;

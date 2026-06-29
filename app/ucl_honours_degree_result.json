@@ -1,0 +1,174 @@
+{
+  "degree_classes": [
+    {
+      "class_name": "First-Class Honours",
+      "class_name_zh": "一等荣誉学位",
+      "mark_range": "70% and above",
+      "description": "a first class degree, usually referred to as a 'first' or 1st, is the highest honours degree you can achieve",
+      "abbreviation": "1st"
+    },
+    {
+      "class_name": "Upper Second-Class Honours",
+      "class_name_zh": "二等一荣誉学位",
+      "mark_range": "60-70%",
+      "description": "there are two levels of second class degree. An upper second class, known as a 2:1 or two-one, is the higher of the two levels",
+      "abbreviation": "2:1"
+    },
+    {
+      "class_name": "Lower Second-Class Honours",
+      "class_name_zh": "二等二荣誉学位",
+      "mark_range": "50-60%",
+      "description": "a 2.2 or two-two is the lower level of the second class degree",
+      "abbreviation": "2:2"
+    },
+    {
+      "class_name": "Third-Class Honours",
+      "class_name_zh": "三等荣誉学位",
+      "mark_range": "40-50%",
+      "description": "known as a 'third' or 3rd, this degree is the lowest honours degree achievable",
+      "abbreviation": "3rd"
+    }
+  ],
+  "uk_award_statistics": [
+    {
+      "year": "2014/15",
+      "1st": "22.0%",
+      "2_1": "49.5%",
+      "2_2": "23.0%",
+      "3rd": "5.5%"
+    },
+    {
+      "year": "2015/16",
+      "1st": "23.6%",
+      "2_1": "49.6%",
+      "2_2": "21.7%",
+      "3rd": "5.1%"
+    },
+    {
+      "year": "2016/17",
+      "1st": "25.8%",
+      "2_1": "49.1%",
+      "2_2": "20.3%",
+      "3rd": "4.9%"
+    },
+    {
+      "year": "2017/18",
+      "1st": "27.8%",
+      "2_1": "48.5%",
+      "2_2": "19.2%",
+      "3rd": "4.5%"
+    },
+    {
+      "year": "2018/19",
+      "1st": "28.4%",
+      "2_1": "48.3%",
+      "2_2": "19.0%",
+      "3rd": "4.3%"
+    }
+  ],
+  "international_equivalencies": [
+    {
+      "degree_class": "1st",
+      "ucl_mark_range": "70-100%",
+      "us": "A",
+      "ects": "A",
+      "china_gpa": "90% (3.7)",
+      "germany": "Sehr gut",
+      "italy": "108",
+      "india": "75%",
+      "netherlands_spain": "9"
+    },
+    {
+      "degree_class": "2:1",
+      "ucl_mark_range": "65-69%",
+      "us": "A-",
+      "ects": "B",
+      "china_gpa": "80% (3.3)",
+      "germany": "Gut",
+      "italy": "Gut",
+      "india": "94",
+      "netherlands_spain": "7"
+    },
+    {
+      "degree_class": "2:1",
+      "ucl_mark_range": "60-64%",
+      "us": "B+",
+      "ects": "",
+      "china_gpa": "",
+      "germany": "",
+      "italy": "",
+      "india": "",
+      "netherlands_spain": ""
+    },
+    {
+      "degree_class": "2:2",
+      "ucl_mark_range": "55-59%",
+      "us": "B",
+      "ects": "C",
+      "china_gpa": "75% (2.9)",
+      "germany": "Gut -",
+      "italy": "84",
+      "india": "50%",
+      "netherlands_spain": "6"
+    },
+    {
+      "degree_class": "2:2",
+      "ucl_mark_range": "50-54%",
+      "us": "B-",
+      "ects": "",
+      "china_gpa": "",
+      "germany": "Befriedigend +",
+      "italy": "",
+      "india": "",
+      "netherlands_spain": ""
+    },
+    {
+      "degree_class": "3rd",
+      "ucl_mark_range": "46-49%",
+      "us": "C+",
+      "ects": "D",
+      "china_gpa": "",
+      "germany": "Befriedigend",
+      "italy": "",
+      "india": "",
+      "netherlands_spain": ""
+    },
+    {
+      "degree_class": "3rd",
+      "ucl_mark_range": "43-45%",
+      "us": "C",
+      "ects": "D",
+      "china_gpa": "",
+      "germany": "Befriedigend -",
+      "italy": "",
+      "india": "",
+      "netherlands_spain": ""
+    },
+    {
+      "degree_class": "3rd",
+      "ucl_mark_range": "40-42%",
+      "us": "C-",
+      "ects": "D",
+      "china_gpa": "",
+      "germany": "Ausreichend",
+      "italy": "",
+      "india": "",
+      "netherlands_spain": ""
+    },
+    {
+      "degree_class": "Fail",
+      "ucl_mark_range": "0-39%",
+      "us": "F",
+      "ects": "F",
+      "china_gpa": "",
+      "germany": "Ungenügend",
+      "italy": "",
+      "india": "",
+      "netherlands_spain": ""
+    }
+  ],
+  "ordinary_degree": {
+    "description": "If an honours student fails to achieve a third class by a small margin, they may be awarded an ordinary degree i.e. without honours.",
+    "condition": "fails to achieve a third class by a small margin"
+  }
+}
